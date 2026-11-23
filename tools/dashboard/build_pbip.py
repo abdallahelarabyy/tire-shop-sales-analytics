@@ -21,7 +21,7 @@ BASE_THEME_SRC = Path(__file__).parent / "Fluent2-CY26SU10.json"
 VC_SCHEMA = "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json"
 PAGE_SCHEMA = "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json"
 
-# Palette (dataviz reference palette; category colours match the EDA notebook)
+# Palette: colour-blind-safe; category colours match the EDA notebook
 INK, INK2, MUTED, GRID, LINE = "#0B0B0B", "#52514E", "#8A8984", "#ECEBE7", "#E3E5E8"
 HEADER, PAGE_BG = "#0F1E33", "#F3F4F6"
 BLUE, ORANGE, AQUA, YELLOW, RED, GRAY = "#2A78D6", "#EB6834", "#1BAF7A", "#EDA100", "#D03B3B", "#B9B8B3"

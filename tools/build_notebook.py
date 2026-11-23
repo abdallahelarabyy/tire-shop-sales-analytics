@@ -57,7 +57,7 @@ from matplotlib.ticker import FuncFormatter, PercentFormatter
 DATA = Path('../data/clean')
 CHARTS = Path('charts'); CHARTS.mkdir(exist_ok=True)
 
-# --- Palette (dataviz reference palette, validated for colour-vision deficiency) ---
+# --- Palette: colour-blind-safe categorical colours (checked for colour-vision deficiency) ---
 SURFACE, INK, INK2, MUTED, GRID = '#fcfcfb', '#0b0b0b', '#52514e', '#8a8984', '#e7e6e2'
 CAT = {'Tire': '#2a78d6', 'Battery': '#eb6834', 'Rim': '#1baf7a', 'Service': '#eda100'}  # colour follows category everywhere
 BLUE, GRAY, CRITICAL = '#2a78d6', '#c9c8c2', '#d03b3b'
