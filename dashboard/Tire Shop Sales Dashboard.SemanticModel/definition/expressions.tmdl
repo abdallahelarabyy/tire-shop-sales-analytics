@@ -1,0 +1,18 @@
+expression DataFolder = "F:\Data Analysis\tire-shop-sales-analytics\data\clean\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 0ebce2a9-c0a6-51b4-9769-e4637a972cb2
+
+	annotation PBI_ResultType = Text
+
+expression LoadCsv =
+		(fileName as text) as table =>
+		let
+		    Source = Csv.Document(File.Contents(DataFolder & fileName), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+		    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+		    NoBom = Table.TransformColumnNames(Promoted, each Text.Replace(_, Character.FromNumber(65279), "")),
+		    BlanksToNull = Table.TransformColumns(NoBom, {}, each if _ = "" then null else _)
+		in
+		    BlanksToNull
+	lineageTag: dbaf9f78-49ff-5f01-9888-949afaaede8b
+
+	annotation PBI_ResultType = Function
+

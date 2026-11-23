@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Tire Shop Sales Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5d748178-1a96-5590-afbd-347556199d65"
+  }
+}

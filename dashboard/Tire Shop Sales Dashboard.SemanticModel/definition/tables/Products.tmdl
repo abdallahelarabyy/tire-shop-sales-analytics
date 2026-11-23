@@ -1,0 +1,168 @@
+table Products
+	lineageTag: db1427ce-1750-5c2a-b814-d55ca2e89d2b
+
+	column 'Product ID'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: e39629cc-e65c-524a-a955-952d61b7cd1b
+		summarizeBy: none
+		sourceColumn: product_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column Product
+		dataType: string
+		lineageTag: 685555f2-913f-5ebb-87a6-4e3c356a03ff
+		summarizeBy: none
+		sourceColumn: product_name_en
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product (Arabic)'
+		dataType: string
+		lineageTag: 2e5aa8d8-c51f-5d7c-9aca-d3cd8ee79afe
+		summarizeBy: none
+		sourceColumn: product_name_ar
+
+		annotation SummarizationSetBy = Automatic
+
+	column Category
+		dataType: string
+		lineageTag: 996e0e3d-a1ab-5649-8e82-39a3c0c34a59
+		summarizeBy: none
+		sourceColumn: category
+		sortByColumn: 'Category Order'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Category Order'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 11364067-8c84-5363-81ff-27d610668531
+		summarizeBy: none
+		sourceColumn: category_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column Brand
+		dataType: string
+		lineageTag: 55c05826-6b64-5f2e-89e7-d9644d186628
+		summarizeBy: none
+		sourceColumn: brand
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Line'
+		dataType: string
+		lineageTag: c0a7e792-ae61-56ac-bc18-bf4bfa5b996c
+		summarizeBy: none
+		sourceColumn: product_line
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Origin Country'
+		dataType: string
+		lineageTag: 40755afb-cd65-569e-befa-9d9ed2a43f46
+		summarizeBy: none
+		sourceColumn: origin_country
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Origin Region'
+		dataType: string
+		lineageTag: 5be49724-9611-5c53-bdf0-fcfbbff5af57
+		summarizeBy: none
+		sourceColumn: origin_region
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tire Size'
+		dataType: string
+		lineageTag: acdc9f5c-9571-50ab-8e44-1db781ecd555
+		summarizeBy: none
+		sourceColumn: tire_size
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tire Type'
+		dataType: string
+		lineageTag: b83c62d8-1dab-56af-822e-b808019dd831
+		summarizeBy: none
+		sourceColumn: tire_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Rim Size'
+		dataType: string
+		lineageTag: 690d9ae4-7913-597b-9f4a-90238e52d22d
+		summarizeBy: none
+		sourceColumn: rim_size_label
+		sortByColumn: 'Rim Diameter'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Rim Diameter'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: c7f0f376-6d6c-5fbb-a503-31392367daf9
+		summarizeBy: none
+		sourceColumn: rim_diameter_in
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Battery Model'
+		dataType: string
+		lineageTag: 6a5b8e05-a598-5828-b64f-0aa05b4b09d6
+		summarizeBy: none
+		sourceColumn: battery_model
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Battery Family'
+		dataType: string
+		lineageTag: 7c125596-0461-5ff7-b548-d359e75f8e3b
+		summarizeBy: none
+		sourceColumn: battery_family
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Bolt Pattern'
+		dataType: string
+		lineageTag: d8edeb25-3ed8-588e-862b-2c1c04e33bca
+		summarizeBy: none
+		sourceColumn: rim_pcd
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tags
+		dataType: string
+		lineageTag: 85c2f82b-8715-57d5-99c1-b7b336d5dbb4
+		summarizeBy: none
+		sourceColumn: tags
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Possible Duplicate'
+		dataType: boolean
+		lineageTag: 0bd97071-9624-5ce8-81a5-9b19cbffdd99
+		summarizeBy: none
+		sourceColumn: is_possible_duplicate
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Products = m
+		mode: import
+		source =
+				let
+				    Source = LoadCsv("dim_product.csv"),
+				    #"Booleans" = Table.TransformColumns(Source, {{"is_possible_duplicate", each _ = "True", type logical}}),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Booleans", {{"product_id", Int64.Type}, {"product_name_en", type text}, {"product_name_ar", type text}, {"category", type text}, {"brand", type text}, {"product_line", type text}, {"origin_country", type text}, {"origin_region", type text}, {"tire_size", type text}, {"tire_type", type text}, {"rim_size_label", type text}, {"rim_diameter_in", Int64.Type}, {"battery_model", type text}, {"battery_family", type text}, {"rim_pcd", type text}, {"tags", type text}}, "en-US"),
+				    Kept = Table.SelectColumns(#"Changed Type", {"product_id", "product_name_en", "product_name_ar", "category", "brand", "product_line", "origin_country", "origin_region", "tire_size", "tire_type", "rim_size_label", "rim_diameter_in", "battery_model", "battery_family", "rim_pcd", "tags", "is_possible_duplicate"}),
+				    #"Added Category Order" = Table.AddColumn(Kept, "category_order", each List.PositionOf({"Tire", "Battery", "Rim", "Service", "Accessory"}, [category]) + 1, Int64.Type)
+				in
+				    #"Added Category Order"
+
+	annotation PBI_ResultType = Table

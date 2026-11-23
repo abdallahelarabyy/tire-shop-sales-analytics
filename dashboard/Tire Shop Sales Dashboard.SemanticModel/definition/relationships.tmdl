@@ -1,0 +1,8 @@
+relationship 67f9b7a2-384c-5a2f-ba52-e380f570200a
+	fromColumn: 'Product Sales'.'Product ID'
+	toColumn: Products.'Product ID'
+
+relationship 738b832c-8f35-50fd-aee6-e993f805112a
+	fromColumn: Invoices.'Business Date'
+	toColumn: Calendar.Date
+

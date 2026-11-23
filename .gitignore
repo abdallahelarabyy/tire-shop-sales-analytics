@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+
+# Power BI local cache / settings
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Tooling caches
+tools/dashboard/schemas/

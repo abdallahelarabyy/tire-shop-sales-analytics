@@ -1,0 +1,256 @@
+table 'Product Sales'
+	lineageTag: 1223d8e5-6cc3-5808-9615-e696d052c435
+
+	measure Revenue = SUM ( 'Product Sales'[Sales Amount] )
+		formatString: #,0
+		displayFolder: Sales
+		lineageTag: c9817849-8653-5553-a68b-ac435c9c0651
+
+	measure Cost = SUM ( 'Product Sales'[Cost Amount] )
+		formatString: #,0
+		displayFolder: Sales
+		lineageTag: 71a9090c-1f93-53e5-b2f0-f417d05a836f
+
+	measure Profit = SUM ( 'Product Sales'[Profit Amount] )
+		formatString: #,0
+		displayFolder: Sales
+		lineageTag: 3b468f56-fe59-5321-ae3f-fa263794794c
+
+	measure 'Margin %' = DIVIDE ( [Profit], [Revenue] )
+		formatString: 0.0%
+		displayFolder: Sales
+		lineageTag: d447fcb1-e445-5ac3-b909-cf1fa627602f
+
+	measure 'Units Sold' = SUM ( 'Product Sales'[Units] )
+		formatString: #,0
+		displayFolder: Sales
+		lineageTag: c81a54c0-3e7e-519e-a423-f95f396ff478
+
+	measure 'Products Sold' = COUNTROWS ( 'Product Sales' )
+		formatString: #,0
+		displayFolder: Sales
+		lineageTag: b0a60bed-28cc-578d-88cd-8d95011b8326
+
+	measure 'Avg Selling Price' = DIVIDE ( [Revenue], [Units Sold] )
+		formatString: #,0
+		displayFolder: Per unit
+		lineageTag: 29ee6dd7-8eca-58ce-a4a6-cea545648681
+
+	measure 'Avg Cost per Unit' = DIVIDE ( [Cost], [Units Sold] )
+		formatString: #,0
+		displayFolder: Per unit
+		lineageTag: 5f283164-9d0b-5b54-ad90-8bf59d1adb4d
+
+	measure 'Profit per Unit' = DIVIDE ( [Profit], [Units Sold] )
+		formatString: #,0
+		displayFolder: Per unit
+		lineageTag: 501b173f-3310-558b-b52c-03d934de2b1b
+
+	measure 'Revenue Share' = DIVIDE ( [Revenue], CALCULATE ( [Revenue], REMOVEFILTERS ( Products ) ) )
+		formatString: 0.0%
+		displayFolder: Share
+		lineageTag: 96073854-0a36-5737-853b-94600514d52e
+
+	measure 'Profit Share' = DIVIDE ( [Profit], CALCULATE ( [Profit], REMOVEFILTERS ( Products ) ) )
+		formatString: 0.0%
+		displayFolder: Share
+		lineageTag: d2122ec2-4612-50f5-aa4b-a871cfb5031e
+
+	measure 'Loss Products' = COALESCE ( CALCULATE ( COUNTROWS ( 'Product Sales' ), 'Product Sales'[Sale Status] = "Sold below cost" ), 0 )
+		formatString: #,0
+		displayFolder: Pricing
+		lineageTag: a7aa78a5-81bb-5a0d-93e9-968ceef3b99a
+
+	measure 'Loss Amount' = - CALCULATE ( [Profit], 'Product Sales'[Sale Status] = "Sold below cost" )
+		formatString: #,0
+		displayFolder: Pricing
+		lineageTag: fc793e9b-34c2-5095-8237-12281573ab55
+
+	measure 'Revenue at Loss' = CALCULATE ( [Revenue], 'Product Sales'[Sale Status] = "Sold below cost" )
+		formatString: #,0
+		displayFolder: Pricing
+		lineageTag: d84be9ff-8bc0-582d-a857-99356c39d70a
+
+	measure 'Low Margin Products' = COALESCE ( CALCULATE ( COUNTROWS ( 'Product Sales' ), 'Product Sales'[Margin Band] = "0-5%" ), 0 )
+		formatString: #,0
+		displayFolder: Pricing
+		lineageTag: fb9975b4-6757-5346-99a5-e3020298d1b1
+
+	measure 'Category Color' = SWITCH ( SELECTEDVALUE ( Products[Category] ), "Tire", "#2A78D6", "Battery", "#EB6834", "Rim", "#1BAF7A", "Service", "#EDA100", "#8A8984" )
+		displayFolder: Formatting
+		lineageTag: 7cbf2df3-322b-5f02-b9f6-beebdf75fdad
+
+	measure 'Margin Color' = SWITCH ( TRUE (), ISBLANK ( [Margin %] ), "#52514E", [Margin %] < 0, "#D03B3B", [Margin %] < 0.08, "#A35F00", "#0B0B0B" )
+		displayFolder: Formatting
+		lineageTag: daa54753-3785-59f0-a93e-7ddeca03d5e6
+
+	column 'Product ID'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 9ccf862c-3083-50a0-b14a-0ca1d7376bd4
+		summarizeBy: none
+		sourceColumn: product_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column Units
+		dataType: int64
+		isHidden
+		formatString: #,0
+		lineageTag: 6e1c1925-8ef2-5eb6-875c-ef1754548aef
+		summarizeBy: none
+		sourceColumn: qty_sold
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales Amount'
+		dataType: double
+		isHidden
+		formatString: #,0
+		lineageTag: 503dcfdf-5975-5b42-bb84-7888a2994563
+		summarizeBy: none
+		sourceColumn: revenue
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Cost Amount'
+		dataType: double
+		isHidden
+		formatString: #,0
+		lineageTag: 9d8bdc3d-634f-54a6-a0b1-27506a61cc91
+		summarizeBy: none
+		sourceColumn: cost
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Profit Amount'
+		dataType: double
+		isHidden
+		formatString: #,0
+		lineageTag: 4594a6d1-2b67-51d3-b45f-45abcf4b30dd
+		summarizeBy: none
+		sourceColumn: profit
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Unit Price'
+		dataType: double
+		formatString: #,0
+		lineageTag: 64cda623-c0ad-591c-a8fb-7ce0bfd41e4a
+		summarizeBy: none
+		sourceColumn: unit_price
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Unit Cost'
+		dataType: double
+		formatString: #,0
+		lineageTag: 472d0506-a1ee-5527-a527-06688a1c73ee
+		summarizeBy: none
+		sourceColumn: unit_cost
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Margin'
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 4ac9e169-eb0e-558a-a4b4-7f6957ec3ba6
+		summarizeBy: none
+		sourceColumn: margin_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ABC Class'
+		dataType: string
+		lineageTag: a11e4199-3564-5a43-bc2a-513ee7840d93
+		summarizeBy: none
+		sourceColumn: abc_class
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Profit Rank'
+		dataType: int64
+		formatString: 0
+		lineageTag: 865c2bed-4c04-55f6-b009-d132137997d6
+		summarizeBy: none
+		sourceColumn: profit_rank
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Price Band'
+		dataType: string
+		lineageTag: c1e12cb4-3ea8-5fc1-80b0-245614223890
+		summarizeBy: none
+		sourceColumn: price_band
+		sortByColumn: 'Price Band Order'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Price Band Order'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 9bac35bc-f474-54be-bb2d-af7590dce95e
+		summarizeBy: none
+		sourceColumn: price_band_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Margin Band'
+		dataType: string
+		lineageTag: 2dc59755-3826-5192-b149-4732d3aee0ee
+		summarizeBy: none
+		sourceColumn: margin_band
+		sortByColumn: 'Margin Band Order'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Margin Band Order'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 023d3324-8db8-5b98-a284-3461a15934ff
+		summarizeBy: none
+		sourceColumn: margin_band_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Loss Gap'
+		dataType: string
+		lineageTag: d0c9a296-7d8a-5702-909d-bb7c253cb82f
+		summarizeBy: none
+		sourceColumn: loss_gap_band
+		sortByColumn: 'Loss Gap Order'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Loss Gap Order'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: f0102738-8856-5343-81b1-e2250269a33c
+		summarizeBy: none
+		sourceColumn: loss_gap_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sale Status'
+		dataType: string
+		lineageTag: 1df9385f-8756-5639-9d05-b9b6a59c7599
+		summarizeBy: none
+		sourceColumn: sale_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Product Sales' = m
+		mode: import
+		source =
+				let
+				    Source = LoadCsv("fact_item_sales.csv"),
+				    #"Changed Type" = Table.TransformColumnTypes(Source, {{"product_id", Int64.Type}, {"qty_sold", Int64.Type}, {"revenue", type number}, {"cost", type number}, {"profit", type number}, {"unit_price", type number}, {"unit_cost", type number}, {"margin_pct", type number}, {"abc_class", type text}, {"profit_rank", Int64.Type}, {"price_band", type text}, {"price_band_order", Int64.Type}, {"margin_band", type text}, {"margin_band_order", Int64.Type}, {"loss_gap_band", type text}, {"loss_gap_order", Int64.Type}, {"sale_status", type text}}, "en-US"),
+				    Kept = Table.SelectColumns(#"Changed Type", {"product_id", "qty_sold", "revenue", "cost", "profit", "unit_price", "unit_cost", "margin_pct", "abc_class", "profit_rank", "price_band", "price_band_order", "margin_band", "margin_band_order", "loss_gap_band", "loss_gap_order", "sale_status"})
+				in
+				    Kept
+
+	annotation PBI_ResultType = Table

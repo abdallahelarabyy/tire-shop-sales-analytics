@@ -1,0 +1,148 @@
+table Calendar
+	lineageTag: f3975c8e-0c29-573f-b553-d32e707a5a79
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		isKey
+		formatString: yyyy-mm-dd
+		lineageTag: 64e13274-f141-51b2-abdf-e5baaa2decde
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 3e4c3ba4-97fd-5aa8-ba4a-83da79dd795e
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		dataType: string
+		lineageTag: 3f2b0eed-b80b-5c7d-8031-dba9eca72b7d
+		summarizeBy: none
+		sourceColumn: quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Num'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: e542198b-ace7-53b5-85e4-30056e13cb7b
+		summarizeBy: none
+		sourceColumn: month_num
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		dataType: string
+		lineageTag: f66025c1-45f1-5c28-95c6-055d8e34ac1f
+		summarizeBy: none
+		sourceColumn: month_name
+		sortByColumn: 'Month Num'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Short'
+		dataType: string
+		lineageTag: e8537cf7-0e66-5bf1-885b-914154a912a4
+		summarizeBy: none
+		sourceColumn: month_short
+		sortByColumn: 'Month Num'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Year Month'
+		dataType: string
+		lineageTag: 7467ec84-ac6a-5a1f-99aa-d5c5091313a2
+		summarizeBy: none
+		sourceColumn: year_month
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Start'
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 2db3bcc4-2876-51a8-9de3-e2f555c68c92
+		summarizeBy: none
+		sourceColumn: month_start
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Day
+		dataType: int64
+		formatString: 0
+		lineageTag: bbfb8fae-2327-56dc-9dbc-dcf22b705e25
+		summarizeBy: none
+		sourceColumn: day_of_month
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Weekday Num'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 4aebf727-cf7d-5dbb-ad15-f5c1fc9d8087
+		summarizeBy: none
+		sourceColumn: weekday_num
+
+		annotation SummarizationSetBy = Automatic
+
+	column Weekday
+		dataType: string
+		lineageTag: 78c1e37d-a3be-54fb-91d2-1e1895a30b16
+		summarizeBy: none
+		sourceColumn: weekday_name
+		sortByColumn: 'Weekday Num'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Weekday Short'
+		dataType: string
+		lineageTag: 4fc51683-3584-571c-a32b-e2fbad071d83
+		summarizeBy: none
+		sourceColumn: weekday_short
+		sortByColumn: 'Weekday Num'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Week Start'
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 04ec4ad9-2b1a-5d3d-95fc-05433f11b9fa
+		summarizeBy: none
+		sourceColumn: week_start
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Is Friday'
+		dataType: boolean
+		lineageTag: 6cdd6cd2-1c2e-522e-9bdc-09c390bff363
+		summarizeBy: none
+		sourceColumn: is_friday
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calendar = m
+		mode: import
+		source =
+				let
+				    Source = LoadCsv("dim_date.csv"),
+				    #"Booleans" = Table.TransformColumns(Source, {{"is_friday", each _ = "True", type logical}}),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Booleans", {{"date", type date}, {"year", Int64.Type}, {"quarter", type text}, {"month_num", Int64.Type}, {"month_name", type text}, {"month_short", type text}, {"year_month", type text}, {"month_start", type date}, {"day_of_month", Int64.Type}, {"weekday_num", Int64.Type}, {"weekday_name", type text}, {"weekday_short", type text}, {"week_start", type date}}, "en-US"),
+				    Kept = Table.SelectColumns(#"Changed Type", {"date", "year", "quarter", "month_num", "month_name", "month_short", "year_month", "month_start", "day_of_month", "weekday_num", "weekday_name", "weekday_short", "week_start", "is_friday"})
+				in
+				    Kept
+
+	annotation PBI_ResultType = Table

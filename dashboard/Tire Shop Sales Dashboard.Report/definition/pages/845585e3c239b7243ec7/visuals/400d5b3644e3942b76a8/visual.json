@@ -1,0 +1,234 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "400d5b3644e3942b76a8",
+  "position": {
+    "x": 16,
+    "y": 72,
+    "z": 400,
+    "height": 632,
+    "width": 616,
+    "tabOrder": 400
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Real data, kept confidential",
+                    "textStyle": {
+                      "fontSize": "10.5pt",
+                      "color": "#2A78D6",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Real point-of-sale data from a family-owned tire, battery and rim shop in Egypt. The shop is not named, customer names are removed, and all money values are scaled by a secret factor and perturbed per product. Percentages, counts, dates and patterns are real; EGP amounts are not.",
+                    "textStyle": {
+                      "fontSize": "9.5pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " ",
+                    "textStyle": {
+                      "fontSize": "5pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Sources",
+                    "textStyle": {
+                      "fontSize": "10.5pt",
+                      "color": "#2A78D6",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Two exports from the shop's DEXEF POS: the item profit report (343 products: quantity, revenue, cost, profit) and the invoice list (2,036 invoices, 1 Apr - 3 Nov 2026). The item report has no dates or invoice numbers, so product pages and activity pages cannot be cross-filtered.",
+                    "textStyle": {
+                      "fontSize": "9.5pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " ",
+                    "textStyle": {
+                      "fontSize": "5pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Cost basis",
+                    "textStyle": {
+                      "fontSize": "10.5pt",
+                      "color": "#2A78D6",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "DEXEF values cost at the LAST PURCHASE PRICE (replacement cost). When supplier prices rise, older stock is valued at the new price, so margins look lower than what was actually earned and some sales show as losses. The owner confirmed some tires were knowingly sold below cost.",
+                    "textStyle": {
+                      "fontSize": "9.5pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " ",
+                    "textStyle": {
+                      "fontSize": "5pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Services",
+                    "textStyle": {
+                      "fontSize": "10.5pt",
+                      "color": "#2A78D6",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Welding and rim straightening have no cost in the POS. Their costs are small and already deducted from the service revenue, so the recorded service profit is used as-is.",
+                    "textStyle": {
+                      "fontSize": "9.5pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " ",
+                    "textStyle": {
+                      "fontSize": "5pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Cleaning (Python)",
+                    "textStyle": {
+                      "fontSize": "10.5pt",
+                      "color": "#2A78D6",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Product names parsed into category, size, brand and origin (Arabic -> English). 3 duplicate invoice rows removed; 117 invoice dates corrected (the POS kept the open shift's date); sales before 05:00 count for the previous trading day; customer names replaced by IDs. All totals reconcile with the POS report footers.",
+                    "textStyle": {
+                      "fontSize": "9.5pt",
+                      "color": "#0B0B0B"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

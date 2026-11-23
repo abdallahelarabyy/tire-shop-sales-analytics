@@ -1,0 +1,291 @@
+table Invoices
+	lineageTag: a015465a-584a-5fa5-8859-3e9aa0cb9232
+
+	measure 'Invoice Revenue' = SUM ( Invoices[Net Amount] )
+		formatString: #,0
+		displayFolder: Activity
+		lineageTag: 61d5ed28-3dcd-5d77-a804-c39559eb33e0
+
+	measure 'Invoice Count' = COUNTROWS ( Invoices )
+		formatString: #,0
+		displayFolder: Activity
+		lineageTag: 52644a34-e765-5a0f-8815-d28b7e38616a
+
+	measure 'Avg Ticket' = DIVIDE ( [Invoice Revenue], [Invoice Count] )
+		formatString: #,0
+		displayFolder: Activity
+		lineageTag: 1b9ba52d-4d81-52ce-84d4-55b5d501ff7f
+
+	measure 'Trading Days' = DISTINCTCOUNT ( Invoices[Business Date] )
+		formatString: #,0
+		displayFolder: Activity
+		lineageTag: 4a1a3399-3d23-57d4-a79c-21e572a28665
+
+	measure 'Revenue per Trading Day' = DIVIDE ( [Invoice Revenue], [Trading Days] )
+		formatString: #,0
+		displayFolder: Activity
+		lineageTag: 120e3956-b0b9-59e4-8095-b929b2e971a0
+
+	measure 'Invoices per Day' = DIVIDE ( [Invoice Count], [Trading Days] )
+		formatString: 0.0
+		displayFolder: Activity
+		lineageTag: 6537d2c6-d265-51fe-8477-65ac37fc6e04
+
+	measure 'Revenue 7-Day Avg' =
+			VAR d = MAX ( 'Calendar'[Date] )
+			VAR lastDay = CALCULATE ( MAX ( Invoices[Business Date] ), REMOVEFILTERS () )
+			RETURN
+			    IF ( d > lastDay, BLANK (), AVERAGEX ( DATESINPERIOD ( 'Calendar'[Date], d, -7, DAY ), [Invoice Revenue] ) )
+		formatString: #,0
+		displayFolder: Activity
+		lineageTag: 43922eb6-7acf-5128-8d1a-f8fe8046bf74
+
+	measure 'Share of Invoices' = DIVIDE ( [Invoice Count], CALCULATE ( [Invoice Count], REMOVEFILTERS ( Invoices[Ticket Band], Invoices[Ticket Band Order] ) ) )
+		formatString: 0%
+		displayFolder: Activity
+		lineageTag: 4ac8461c-25b8-575d-a037-79f85529d5dc
+
+	measure 'Share of Revenue' = DIVIDE ( [Invoice Revenue], CALCULATE ( [Invoice Revenue], REMOVEFILTERS ( Invoices[Ticket Band], Invoices[Ticket Band Order] ) ) )
+		formatString: 0%
+		displayFolder: Activity
+		lineageTag: 80b8d369-4dfc-5143-9549-e0b59d1f1c06
+
+	measure 'After-Midnight Revenue' = CALCULATE ( [Invoice Revenue], Invoices[Is After Midnight] = TRUE () )
+		formatString: #,0
+		displayFolder: Activity
+		lineageTag: 86589fcd-e390-5f6f-ab5a-c9b61fdd4cf1
+
+	measure 'Evening Share' = DIVIDE ( CALCULATE ( [Invoice Count], Invoices[Hour Sort] >= 18 ), [Invoice Count] )
+		formatString: 0%
+		displayFolder: Activity
+		lineageTag: 68118cca-9477-5943-8086-f929edd457a6
+
+	measure 'Heat Color' =
+			VAR v = [Invoice Count]
+			VAR mx = MAXX ( CROSSJOIN ( ALLSELECTED ( 'Calendar'[Weekday], 'Calendar'[Weekday Num] ), ALLSELECTED ( Invoices[Hour], Invoices[Hour Sort] ) ), [Invoice Count] )
+			VAR r = DIVIDE ( v, mx )
+			RETURN
+			    SWITCH ( TRUE (), ISBLANK ( v ), "#FFFFFF", r < 0.2, "#EEF4FD", r < 0.4, "#B7D3F6", r < 0.6, "#6DA7EC", r < 0.8, "#2A78D6", "#184F95" )
+		displayFolder: Formatting
+		lineageTag: 747c7487-946e-51b2-9a85-c63ecab6fe93
+
+	measure 'Heat Font Color' =
+			VAR v = [Invoice Count]
+			VAR mx = MAXX ( CROSSJOIN ( ALLSELECTED ( 'Calendar'[Weekday], 'Calendar'[Weekday Num] ), ALLSELECTED ( Invoices[Hour], Invoices[Hour Sort] ) ), [Invoice Count] )
+			RETURN IF ( DIVIDE ( v, mx ) >= 0.6, "#FFFFFF", "#0B0B0B" )
+		displayFolder: Formatting
+		lineageTag: 54201e90-57f5-55b8-9d5f-f06a74f2dac7
+
+	column 'Invoice No'
+		dataType: int64
+		formatString: 0
+		lineageTag: 497a887c-257c-5246-9903-351dc4744e48
+		summarizeBy: none
+		sourceColumn: invoice_no
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Invoice DateTime'
+		dataType: dateTime
+		formatString: yyyy-mm-dd hh:nn
+		lineageTag: 1bb3895b-0e38-5edc-8f50-9991ca20cdd7
+		summarizeBy: none
+		sourceColumn: invoice_datetime
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Business Date'
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 05fe0542-c1ac-50e7-a90e-d075cbe38015
+		summarizeBy: none
+		sourceColumn: business_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Hour
+		dataType: string
+		lineageTag: fe1c440c-ecd3-5008-9b2d-c8a056ec1907
+		summarizeBy: none
+		sourceColumn: hour_label
+		sortByColumn: 'Hour Sort'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Hour Sort'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: b2102d1e-dd6f-55ae-9d96-ab59b03533a4
+		summarizeBy: none
+		sourceColumn: hour_sort
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Is After Midnight'
+		dataType: boolean
+		lineageTag: f40163d8-19ec-5471-9699-375ec57c6c72
+		summarizeBy: none
+		sourceColumn: is_after_midnight
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Date Corrected'
+		dataType: boolean
+		lineageTag: 66c2a0b3-88c3-5995-a516-9ecbd076f77f
+		summarizeBy: none
+		sourceColumn: is_date_corrected
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Days Shifted'
+		dataType: int64
+		formatString: 0
+		lineageTag: 690485c1-3543-5533-815d-751ddc2939c5
+		summarizeBy: none
+		sourceColumn: days_shifted
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Time Estimated'
+		dataType: boolean
+		lineageTag: cbbfc5af-2d40-51ab-846f-d47c84c73927
+		summarizeBy: none
+		sourceColumn: is_time_estimated
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Customer Type'
+		dataType: string
+		lineageTag: 3132f300-603a-5e18-8868-cd8d15dda389
+		summarizeBy: none
+		sourceColumn: customer_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Customer ID'
+		dataType: string
+		lineageTag: f4015b3e-77bb-5f13-a29e-19892c22554e
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column Items
+		dataType: int64
+		formatString: 0
+		lineageTag: 02dc2a1e-e9eb-5eb2-a2d7-66230f78036f
+		summarizeBy: none
+		sourceColumn: items_count
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Gross Amount'
+		dataType: double
+		isHidden
+		formatString: #,0
+		lineageTag: e0270c95-a553-553e-84ee-893e2952fe82
+		summarizeBy: none
+		sourceColumn: gross_amount
+
+		annotation SummarizationSetBy = Automatic
+
+	column Discount
+		dataType: double
+		isHidden
+		formatString: #,0
+		lineageTag: b2308169-af2c-5e91-b825-93c75140c33e
+		summarizeBy: none
+		sourceColumn: discount
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tax
+		dataType: double
+		isHidden
+		formatString: #,0
+		lineageTag: 66724e9b-c66b-5a1f-937c-2a80b1e48aad
+		summarizeBy: none
+		sourceColumn: tax
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Net Amount'
+		dataType: double
+		isHidden
+		formatString: #,0
+		lineageTag: 8c0a1a88-d002-5eaf-a1d4-feb0215d9914
+		summarizeBy: none
+		sourceColumn: net_amount
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Paid Amount'
+		dataType: double
+		isHidden
+		formatString: #,0
+		lineageTag: 1b527743-e3c5-546e-8045-d5e9eff9a7b7
+		summarizeBy: none
+		sourceColumn: paid_amount
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Due Amount'
+		dataType: double
+		isHidden
+		formatString: #,0
+		lineageTag: 54d05d4a-3724-5ef5-8c92-69445befd319
+		summarizeBy: none
+		sourceColumn: due_amount
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Payment Status'
+		dataType: string
+		lineageTag: ac36e8c7-579a-5b48-b35b-ef370be54a10
+		summarizeBy: none
+		sourceColumn: payment_status
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ticket Band'
+		dataType: string
+		lineageTag: dc39e599-7638-5b95-aabb-7fa673082eb9
+		summarizeBy: none
+		sourceColumn: ticket_band
+		sortByColumn: 'Ticket Band Order'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ticket Band Order'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: e4e7182b-2ac6-5079-b7cf-7bf4aef345ca
+		summarizeBy: none
+		sourceColumn: ticket_band_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Near Zero'
+		dataType: boolean
+		lineageTag: b46d9c9f-bbbf-5836-9418-dbc8b8f6dab8
+		summarizeBy: none
+		sourceColumn: is_near_zero
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Invoices = m
+		mode: import
+		source =
+				let
+				    Source = LoadCsv("fact_invoices.csv"),
+				    #"Booleans" = Table.TransformColumns(Source, {{"is_after_midnight", each _ = "True", type logical}, {"is_date_corrected", each _ = "True", type logical}, {"is_time_estimated", each _ = "True", type logical}, {"is_near_zero", each _ = "True", type logical}}),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Booleans", {{"invoice_no", Int64.Type}, {"invoice_datetime", type datetime}, {"business_date", type date}, {"hour_label", type text}, {"hour_sort", Int64.Type}, {"days_shifted", Int64.Type}, {"customer_type", type text}, {"customer_id", type text}, {"items_count", Int64.Type}, {"gross_amount", type number}, {"discount", type number}, {"tax", type number}, {"net_amount", type number}, {"paid_amount", type number}, {"due_amount", type number}, {"payment_status", type text}, {"ticket_band", type text}, {"ticket_band_order", Int64.Type}}, "en-US"),
+				    Kept = Table.SelectColumns(#"Changed Type", {"invoice_no", "invoice_datetime", "business_date", "hour_label", "hour_sort", "is_after_midnight", "is_date_corrected", "days_shifted", "is_time_estimated", "customer_type", "customer_id", "items_count", "gross_amount", "discount", "tax", "net_amount", "paid_amount", "due_amount", "payment_status", "ticket_band", "ticket_band_order", "is_near_zero"})
+				in
+				    Kept
+
+	annotation PBI_ResultType = Table

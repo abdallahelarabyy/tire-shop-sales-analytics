@@ -1,0 +1,30 @@
+
+  @page { size: A4; margin: 14mm 14mm 16mm 14mm; }
+  :root { --ink:#0b0b0b; --ink2:#52514e; --muted:#8a8984; --line:#e3e5e8; --navy:#0f1e33;
+          --blue:#2a78d6; --orange:#eb6834; --aqua:#1baf7a; --yellow:#eda100; --red:#d03b3b; --bg:#f3f4f6; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Arial, sans-serif; color: var(--ink); font-size: 9.6pt; line-height: 1.38; margin: 0; }
+  h1 { font-size: 26pt; margin: 0 0 4px; }
+  h2 { font-size: 17pt; margin: 0 0 2px; color: var(--navy); }
+  h3 { font-size: 11pt; margin: 10px 0 4px; color: var(--blue); break-after: avoid; page-break-after: avoid; }
+  p { margin: 4px 0 8px; }
+  .page { page-break-before: always; }
+  .cover { background: var(--navy); color: #fff; padding: 28px 30px; border-radius: 10px; margin-bottom: 18px; }
+  .cover p { color: #c9d1dc; font-size: 11pt; }
+  .tag { display: inline-block; background: var(--blue); color: #fff; font-size: 8.5pt; padding: 2px 8px; border-radius: 10px; margin-right: 4px; }
+  .sub { color: var(--ink2); margin-bottom: 10px; }
+  .shot { width: 88%; display: block; margin-left: auto !important; margin-right: auto !important; border: 1px solid var(--line); border-radius: 6px; margin: 6px 0 4px; }
+  .cap { font-size: 8.5pt; color: var(--muted); margin-bottom: 8px; }
+  table { width: 100%; border-collapse: collapse; margin: 4px 0 8px; font-size: 8.8pt; break-inside: avoid; page-break-inside: avoid; }
+  th { background: var(--navy); color: #fff; text-align: left; padding: 4px 6px; font-weight: 600; }
+  td { padding: 3px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:nth-child(even) td { background: #f7f7f5; }
+  td.n { white-space: nowrap; font-weight: 600; }
+  .box { border-left: 4px solid var(--blue); background: #eef4fd; padding: 6px 10px; border-radius: 4px; margin: 6px 0; break-inside: avoid; }
+  .box.warn { border-color: var(--red); background: #fbecec; }
+  .box.good { border-color: var(--aqua); background: #e8f7f1; }
+  .chip { display: inline-block; width: 11px; height: 11px; border-radius: 2px; vertical-align: -1px; margin-right: 4px; }
+  ul { margin: 4px 0 8px 18px; padding: 0; } li { margin: 2px 0; }
+  .two { display: flex; gap: 14px; } .two > div { flex: 1; }
+  .toc td { border: none; padding: 3px 6px; } .toc tr:nth-child(even) td { background: none; }
+  .foot { color: var(--muted); font-size: 8.5pt; margin-top: 18px; }

@@ -1,0 +1,344 @@
+﻿product_id,product_name_ar,category,brand,product_line,origin_country,tire_width_mm,tire_aspect_ratio,rim_diameter_in,tire_size,tire_type,load_index,speed_rating,is_xl,is_run_flat,ply_rating,rim_bolt_count,rim_pcd,rim_width_in,rim_offset_et,rim_finish,is_oem,battery_model,battery_family,tags,product_name_en,origin_region,is_possible_duplicate,rim_size_label
+1,12-70-145 لينج لونج صيني,Tire,Linglong,Linglong,China,145.0,70.0,12.0,145/70 R12,Passenger,,,False,False,,,,,,,False,,,,145/70 R12 Linglong - China,East Asia,False,R12
+2,12-70-145اوفيشن صيني,Tire,Ovation,Ovation,China,145.0,70.0,12.0,145/70 R12,Passenger,,,False,False,,,,,,,False,,,,145/70 R12 Ovation - China,East Asia,False,R12
+3,12-70-175 جالنت صيني,Tire,Gallant,Gallant,China,175.0,70.0,12.0,175/70 R12,Passenger,,,False,False,,,,,,,False,,,,175/70 R12 Gallant - China,East Asia,False,R12
+4,13-60-185 اطلس تايلاندي  خط,Tire,Atlas,Atlas,Thailand,185.0,60.0,13.0,185/60 R13,Passenger,,,False,False,,,,,,,False,,,Line,185/60 R13 Atlas - Thailand,Southeast Asia,False,R13
+5,13-60-185 بلاك هوك صيني,Tire,Blackhawk,Blackhawk,China,185.0,60.0,13.0,185/60 R13,Passenger,,,False,False,,,,,,,False,,,,185/60 R13 Blackhawk - China,East Asia,False,R13
+6,13-60-185 سايلون صيني خط ابيض,Tire,Sailun,Sailun,China,185.0,60.0,13.0,185/60 R13,Passenger,,,False,False,,,,,,,False,,,White line,185/60 R13 Sailun - China,East Asia,False,R13
+7,13-60-185 ليو تايلاندي خط,Tire,Leao,Leao,Thailand,185.0,60.0,13.0,185/60 R13,Passenger,,,False,False,,,,,,,False,,,Line,185/60 R13 Leao - Thailand,Southeast Asia,False,R13
+8,13-60-185 نان كانج تايواني,Tire,Nankang,Nankang,Taiwan,185.0,60.0,13.0,185/60 R13,Passenger,,,False,False,,,,,,,False,,,,185/60 R13 Nankang - Taiwan,East Asia,False,R13
+9,13-70-155 رود ستون صيني,Tire,Roadstone,Roadstone,China,155.0,70.0,13.0,155/70 R13,Passenger,,,False,False,,,,,,,False,,,,155/70 R13 Roadstone - China,East Asia,False,R13
+10,13-70-165 صن وايد,Tire,Sunwide,Sunwide,Unknown,165.0,70.0,13.0,165/70 R13,Passenger,,,False,False,,,,,,,False,,,,165/70 R13 Sunwide - Unknown,Unknown,False,R13
+11,13-70-165 ليو تايلاندي,Tire,Leao,Leao,Thailand,165.0,70.0,13.0,165/70 R13,Passenger,,,False,False,,,,,,,False,,,,165/70 R13 Leao - Thailand,Southeast Asia,False,R13
+12,13-70-175 اريسون تايلاندي جديد,Tire,Arisun,Arisun,Thailand,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,New model,175/70 R13 Arisun - Thailand,Southeast Asia,False,R13
+13,13-70-175 جالنت صيني,Tire,Gallant,Gallant,China,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Gallant - China,East Asia,False,R13
+14,13-70-175 دينامو صيني,Tire,Dynamo,Dynamo,China,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Dynamo - China,East Asia,False,R13
+15,13-70-175 دينامو فيتنامي,Tire,Dynamo,Dynamo,Vietnam,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Dynamo - Vietnam,Southeast Asia,False,R13
+16,13-70-175 رودستون صيني,Tire,Roadstone,Roadstone,China,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Roadstone - China,East Asia,False,R13
+17,13-70-175 رودكس فيتنامي,Tire,RoadX,RoadX,Vietnam,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 RoadX - Vietnam,Southeast Asia,False,R13
+18,13-70-175 فورس لاند تايلاندي,Tire,Forceland,Forceland,Thailand,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Forceland - Thailand,Southeast Asia,False,R13
+19,13-70-175 فورس لاند صيني,Tire,Forceland,Forceland,China,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Forceland - China,East Asia,False,R13
+20,13-70-175 كروس ويند اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Crosswind - Europe (unspecified),Europe,False,R13
+21,13-70-175 لاندسبيدر تايلاندي,Tire,Landspider,Landspider,Thailand,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Landspider - Thailand,Southeast Asia,False,R13
+22,13-70-175 لوفين كوري,Tire,Laufenn,Laufenn,South Korea,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Laufenn - South Korea,East Asia,False,R13
+23,13-70-175 لوفين مجرى,Tire,Laufenn,Laufenn,Hungary,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Laufenn - Hungary,Europe,False,R13
+24,13-70-175 لينستون صيني,Tire,Linstone,Linstone,China,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Linstone - China,East Asia,False,R13
+25,13-70-175 ليو تايلاندي,Tire,Leao,Leao,Thailand,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Leao - Thailand,Southeast Asia,False,R13
+26,13-70-175 ماكسيس صيني,Tire,Maxxis,Maxxis,China,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Maxxis - China,East Asia,False,R13
+27,13-70-175 هانكوك كورى,Tire,Hankook,Hankook,South Korea,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Hankook - South Korea,East Asia,False,R13
+28,13-70-175 وانلي صيني,Tire,Wanli,Wanli,China,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Wanli - China,East Asia,False,R13
+29,13-70-175ترانسميت صيني,Tire,Transmate,Transmate,China,175.0,70.0,13.0,175/70 R13,Passenger,,,False,False,,,,,,,False,,,,175/70 R13 Transmate - China,East Asia,False,R13
+30,13-70-185 اي بلس,Tire,E-Plus,E-Plus,Unknown,185.0,70.0,13.0,185/70 R13,Passenger,,,False,False,,,,,,,False,,,,185/70 R13 E-Plus - Unknown,Unknown,False,R13
+31,13-70-185 روفيلو فيتنامي,Tire,Rovelo,Rovelo,Vietnam,185.0,70.0,13.0,185/70 R13,Passenger,,,False,False,,,,,,,False,,,,185/70 R13 Rovelo - Vietnam,Southeast Asia,False,R13
+32,13-70-185 ليو تايلاندى,Tire,Leao,Leao,Thailand,185.0,70.0,13.0,185/70 R13,Passenger,,,False,False,,,,,,,False,,,,185/70 R13 Leao - Thailand #32,Southeast Asia,True,R13
+33,13-70-185 هانكوك كوري,Tire,Hankook,Hankook,South Korea,185.0,70.0,13.0,185/70 R13,Passenger,,,False,False,,,,,,,False,,,,185/70 R13 Hankook - South Korea,East Asia,False,R13
+34,13-70-185ترانسميت صيني,Tire,Transmate,Transmate,China,185.0,70.0,13.0,185/70 R13,Passenger,,,False,False,,,,,,,False,,,,185/70 R13 Transmate - China,East Asia,False,R13
+35,13-70-185ليو تايلاندي,Tire,Leao,Leao,Thailand,185.0,70.0,13.0,185/70 R13,Passenger,,,False,False,,,,,,,False,,,,185/70 R13 Leao - Thailand #35,Southeast Asia,True,R13
+36,14-195 لاسا تركى,Tire,Lassa,Lassa,Turkey,195.0,,14.0,195 R14,Light Truck,,,False,False,,,,,,,False,,,,195 R14 Lassa - Turkey,Middle East & Africa,False,R14
+37,14-195 ماكسيس تايلاندي ربع نقل,Tire,Maxxis,Maxxis,Thailand,195.0,,14.0,195 R14,Light Truck,,,False,False,,,,,,,False,,,Light truck,195 R14 Maxxis - Thailand,Southeast Asia,False,R14
+38,14-195ليو تايلاندي خط,Tire,Leao,Leao,Thailand,195.0,,14.0,195 R14,Light Truck,,,False,False,,,,,,,False,,,Line,195 R14 Leao - Thailand,Southeast Asia,False,R14
+39,14-195ويندا صيني,Tire,Winda,Winda,China,195.0,,14.0,195 R14,Light Truck,,,False,False,,,,,,,False,,,,195 R14 Winda - China,East Asia,False,R14
+40,14-4-100 لانسر بومة اصلي ياباني 6 انش,Rim,Mitsubishi Lancer OEM,Mitsubishi Lancer OEM,Japan,,,14.0,,,,,False,False,,4.0,4x100,6,,Original,True,,,,"14"" Mitsubishi Lancer OEM Original (4x100)",East Asia,False,R14
+41,14-4-114 ابيض سبايدر 6.5 انش ET25,Rim,Unbranded,Unbranded,Unknown,,,14.0,,,,,False,False,,4.0,4x114.3,6.5,25,White spider,False,,,,"14"" Unbranded White spider (4x114.3)",Unknown,False,R14
+42,14-60-165 فيرديشتاين هندي,Tire,Vredestein,Vredestein,India,165.0,60.0,14.0,165/60 R14,Passenger,,,False,False,,,,,,,False,,,,165/60 R14 Vredestein - India,South Asia,False,R14
+43,14-60-165 كمهو كوري,Tire,Kumho,Kumho,South Korea,165.0,60.0,14.0,165/60 R14,Passenger,,,False,False,,,,,,,False,,,,165/60 R14 Kumho - South Korea,East Asia,False,R14
+44,14-60-185 اطلس تايلاندي,Tire,Atlas,Atlas,Thailand,185.0,60.0,14.0,185/60 R14,Passenger,,,False,False,,,,,,,False,,,,185/60 R14 Atlas - Thailand,Southeast Asia,False,R14
+45,14-60-185 امريكان رودستار تايلاندي,Tire,American Roadstar,American Roadstar,Thailand,185.0,60.0,14.0,185/60 R14,Passenger,,,False,False,,,,,,,False,,,,185/60 R14 American Roadstar - Thailand,Southeast Asia,False,R14
+46,14-60-185 ستار ماكس تركي,Tire,Starmaxx,Starmaxx,Turkey,185.0,60.0,14.0,185/60 R14,Passenger,,,False,False,,,,,,,False,,,,185/60 R14 Starmaxx - Turkey,Middle East & Africa,False,R14
+47,14-60-185 فورس لاند صيني,Tire,Forceland,Forceland,China,185.0,60.0,14.0,185/60 R14,Passenger,,,False,False,,,,,,,False,,,,185/60 R14 Forceland - China,East Asia,False,R14
+48,14-60-185 كروس ويند اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),185.0,60.0,14.0,185/60 R14,Passenger,,,False,False,,,,,,,False,,,,185/60 R14 Crosswind - Europe (unspecified),Europe,False,R14
+49,14-60-185ايرس جزائري,Tire,Iris,Iris,Algeria,185.0,60.0,14.0,185/60 R14,Passenger,,,False,False,,,,,,,False,,,,185/60 R14 Iris - Algeria,Middle East & Africa,False,R14
+50,14-60-185ترانسميت صيني,Tire,Transmate,Transmate,China,185.0,60.0,14.0,185/60 R14,Passenger,,,False,False,,,,,,,False,,,,185/60 R14 Transmate - China,East Asia,False,R14
+51,14-60-185ديليوم اندونيسي,Tire,Delium,Delium,Indonesia,185.0,60.0,14.0,185/60 R14,Passenger,,,False,False,,,,,,,False,,,,185/60 R14 Delium - Indonesia,Southeast Asia,False,R14
+52,14-60-185زيتكس صيني,Tire,Zeetex,Zeetex,China,185.0,60.0,14.0,185/60 R14,Passenger,,,False,False,,,,,,,False,,,,185/60 R14 Zeetex - China,East Asia,False,R14
+53,14-65-165 فورس لاند تايلاندي,Tire,Forceland,Forceland,Thailand,165.0,65.0,14.0,165/65 R14,Passenger,,,False,False,,,,,,,False,,,,165/65 R14 Forceland - Thailand,Southeast Asia,False,R14
+54,14-65-175 ماتريكس تايلاندي,Tire,Matrix,Matrix,Thailand,175.0,65.0,14.0,175/65 R14,Passenger,,,False,False,,,,,,,False,,,,175/65 R14 Matrix - Thailand,Southeast Asia,False,R14
+55,14-65-185 اطلس تايلاندي,Tire,Atlas,Atlas,Thailand,185.0,65.0,14.0,185/65 R14,Passenger,,,False,False,,,,,,,False,,,,185/65 R14 Atlas - Thailand,Southeast Asia,False,R14
+56,14-65-185 افانتك صيني جديد,Tire,Avantech,Avantech,China,185.0,65.0,14.0,185/65 R14,Passenger,,,False,False,,,,,,,False,,,New model,185/65 R14 Avantech - China,East Asia,False,R14
+57,14-65-185 امريكان رودستار تايلاندي 86H,Tire,American Roadstar,American Roadstar,Thailand,185.0,65.0,14.0,185/65 R14,Passenger,86.0,H,False,False,,,,,,,False,,,,185/65 R14 American Roadstar - Thailand,Southeast Asia,False,R14
+58,14-65-185 برينكس تايلاندى جديد,Tire,Prinx,Prinx,Thailand,185.0,65.0,14.0,185/65 R14,Passenger,,,False,False,,,,,,,False,,,New model,185/65 R14 Prinx - Thailand,Southeast Asia,False,R14
+59,14-65-185 صن وايد صيني,Tire,Sunwide,Sunwide,China,185.0,65.0,14.0,185/65 R14,Passenger,,,False,False,,,,,,,False,,,,185/65 R14 Sunwide - China,East Asia,False,R14
+60,14-65-185 فورس لاند تايلاندي,Tire,Forceland,Forceland,Thailand,185.0,65.0,14.0,185/65 R14,Passenger,,,False,False,,,,,,,False,,,,185/65 R14 Forceland - Thailand,Southeast Asia,False,R14
+61,14-65-185 كمهو كوري,Tire,Kumho,Kumho,South Korea,185.0,65.0,14.0,185/65 R14,Passenger,,,False,False,,,,,,,False,,,,185/65 R14 Kumho - South Korea,East Asia,False,R14
+62,14-65-185 كورديان اوربي,Tire,Cordiant,Cordiant,Europe (unspecified),185.0,65.0,14.0,185/65 R14,Passenger,,,False,False,,,,,,,False,,,,185/65 R14 Cordiant - Europe (unspecified),Europe,False,R14
+63,14-65-185 لوفين كوري جديد,Tire,Laufenn,Laufenn,South Korea,185.0,65.0,14.0,185/65 R14,Passenger,,,False,False,,,,,,,False,,,New model,185/65 R14 Laufenn - South Korea,East Asia,False,R14
+64,14-65-185 هانكوك كورى,Tire,Hankook,Hankook,South Korea,185.0,65.0,14.0,185/65 R14,Passenger,,,False,False,,,,,,,False,,,,185/65 R14 Hankook - South Korea,East Asia,False,R14
+65,14-70-175 زيتكس تايلاندى,Tire,Zeetex,Zeetex,Thailand,175.0,70.0,14.0,175/70 R14,Passenger,,,False,False,,,,,,,False,,,,175/70 R14 Zeetex - Thailand,Southeast Asia,False,R14
+66,14-70-175 صن وايد صيني,Tire,Sunwide,Sunwide,China,175.0,70.0,14.0,175/70 R14,Passenger,,,False,False,,,,,,,False,,,,175/70 R14 Sunwide - China,East Asia,False,R14
+67,14-70-175فورس لاند تايلاندي,Tire,Forceland,Forceland,Thailand,175.0,70.0,14.0,175/70 R14,Passenger,,,False,False,,,,,,,False,,,,175/70 R14 Forceland - Thailand,Southeast Asia,False,R14
+68,14-70-185 كروس ويند اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),185.0,70.0,14.0,185/70 R14,Passenger,,,False,False,,,,,,,False,,,,185/70 R14 Crosswind - Europe (unspecified),Europe,False,R14
+69,14-70-185 لوفين كوري,Tire,Laufenn,Laufenn,South Korea,185.0,70.0,14.0,185/70 R14,Passenger,,,False,False,,,,,,,False,,,,185/70 R14 Laufenn - South Korea,East Asia,False,R14
+70,14-70-185جود ترب تايلاندي,Tire,Goodtrip,Goodtrip,Thailand,185.0,70.0,14.0,185/70 R14,Passenger,,,False,False,,,,,,,False,,,,185/70 R14 Goodtrip - Thailand,Southeast Asia,False,R14
+71,14-70-185كينتو صيني,Tire,Kinto,Kinto,China,185.0,70.0,14.0,185/70 R14,Passenger,,,False,False,,,,,,,False,,,,185/70 R14 Kinto - China,East Asia,False,R14
+72,14-70-195 طرزانو تايلاندي,Tire,Tarzano,Tarzano,Thailand,195.0,70.0,14.0,195/70 R14,Passenger,,,False,False,,,,,,,False,,,,195/70 R14 Tarzano - Thailand,Southeast Asia,False,R14
+73,14-70-195 لاندسيل تايلاندي,Tire,Landsail,Landsail,Thailand,195.0,70.0,14.0,195/70 R14,Passenger,,,False,False,,,,,,,False,,,,195/70 R14 Landsail - Thailand,Southeast Asia,False,R14
+74,15-4-100 تايلاندي جديد 6.5 انش,Rim,Unbranded,Unbranded,Thailand,,,15.0,,,,,False,False,,4.0,4x100,6.5,,New design,False,,,,"15"" Unbranded New design (4x100)",Southeast Asia,False,R15
+75,15-4-100 ذهبي شفة نيكل 7 انش et38,Rim,Unbranded,Unbranded,Unknown,,,15.0,,,,,False,False,,4.0,4x100,7,38,"Gold, nickel lip",False,,,,"15"" Unbranded Gold, nickel lip (4x100)",Unknown,False,R15
+76,15-4-100 نيسان صني اصلي 6.5 انش,Rim,Nissan Sunny OEM,Nissan Sunny OEM,Unknown,,,15.0,,,,,False,False,,4.0,4x100,6.5,,Original,True,,,,"15"" Nissan Sunny OEM Original (4x100)",Unknown,False,R15
+77,15-4-100 ورك اسود لامع 7 انش,Rim,Work,Work,Unknown,,,15.0,,,,,False,False,,4.0,4x100,7,,Gloss black,False,,,,"15"" Work Gloss black (4x100)",Unknown,False,R15
+78,15-4-100-114 بي بي اس ذهبي ياباني 7 انش ET25,Rim,BBS,BBS,Japan,,,15.0,,,,,False,False,,4.0,4x100/114.3,7,25,Gold,False,,,,"15"" BBS Gold (4x100/114.3)",East Asia,False,R15
+79,15-4-100-114 فوسين فضي 7 انش ET28,Rim,Fosin,Fosin,Unknown,,,15.0,,,,,False,False,,4.0,4x100/114.3,7,28,Silver,False,,,,"15"" Fosin Silver (4x100/114.3)",Unknown,False,R15
+80,15-4-100-114 فولك رمادي 7 انش et33,Rim,Volk,Volk,Unknown,,,15.0,,,,,False,False,,4.0,4x100/114.3,7,33,Grey,False,,,,"15"" Volk Grey (4x100/114.3)",Unknown,False,R15
+81,15-4-100-114 ورك اسود شفة نيكل 6.5 انش ET38,Rim,Work,Work,Unknown,,,15.0,,,,,False,False,,4.0,4x100/114.3,6.5,38,"Black, nickel lip",False,,,,"15"" Work Black, nickel lip (4x100/114.3)",Unknown,False,R15
+82,15-4-114 فولك سبايدر غامق 7 انش,Rim,Volk,Volk,Unknown,,,15.0,,,,,False,False,,4.0,4x114.3,7,,Dark spider,False,,,,"15"" Volk Dark spider (4x114.3)",Unknown,False,R15
+83,15-4-114 نيو اوبترا اصلي 6 انش,Rim,Chevrolet Optra OEM,Chevrolet Optra OEM,Unknown,,,15.0,,,,,False,False,,4.0,4x114.3,6,,Original,True,,,,"15"" Chevrolet Optra OEM Original (4x114.3)",Unknown,False,R15
+84,15-45-195 نان كانج تايواني شجرة,Tire,Nankang,Nankang,Taiwan,195.0,45.0,15.0,195/45 R15,Passenger,,,False,False,,,,,,,False,,,Tree pattern,195/45 R15 Nankang - Taiwan,East Asia,False,R15
+85,15-50-195 ارمسترونج تايلاندي,Tire,Armstrong,Armstrong,Thailand,195.0,50.0,15.0,195/50 R15,Passenger,,,False,False,,,,,,,False,,,,195/50 R15 Armstrong - Thailand,Southeast Asia,False,R15
+86,15-50-195 اوفيشن صيني,Tire,Ovation,Ovation,China,195.0,50.0,15.0,195/50 R15,Passenger,,,False,False,,,,,,,False,,,,195/50 R15 Ovation - China,East Asia,False,R15
+87,15-50-195 بلاك ليون فيتنامي 86V,Tire,Black Lion,Black Lion,Vietnam,195.0,50.0,15.0,195/50 R15,Passenger,86.0,V,False,False,,,,,,,False,,,,195/50 R15 Black Lion - Vietnam,Southeast Asia,False,R15
+88,15-50-195 فورس لاند صيني,Tire,Forceland,Forceland,China,195.0,50.0,15.0,195/50 R15,Passenger,,,False,False,,,,,,,False,,,,195/50 R15 Forceland - China,East Asia,False,R15
+89,15-50-195 كروس ويند اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),195.0,50.0,15.0,195/50 R15,Passenger,,,False,False,,,,,,,False,,,,195/50 R15 Crosswind - Europe (unspecified),Europe,False,R15
+90,15-50-195 لايكن صيني,Tire,Laiken,Laiken,China,195.0,50.0,15.0,195/50 R15,Passenger,,,False,False,,,,,,,False,,,,195/50 R15 Laiken - China,East Asia,False,R15
+91,15-50-195 ماتريكس تايلاندي,Tire,Matrix,Matrix,Thailand,195.0,50.0,15.0,195/50 R15,Passenger,,,False,False,,,,,,,False,,,,195/50 R15 Matrix - Thailand,Southeast Asia,False,R15
+92,15-55-195 بلاك ليون فيتنامي 85V,Tire,Black Lion,Black Lion,Vietnam,195.0,55.0,15.0,195/55 R15,Passenger,85.0,V,False,False,,,,,,,False,,,,195/55 R15 Black Lion - Vietnam,Southeast Asia,False,R15
+93,15-55-195 رودستون صيني 85V,Tire,Roadstone,Roadstone,China,195.0,55.0,15.0,195/55 R15,Passenger,85.0,V,False,False,,,,,,,False,,,,195/55 R15 Roadstone - China,East Asia,False,R15
+94,15-55-195 كروس ويند اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),195.0,55.0,15.0,195/55 R15,Passenger,,,False,False,,,,,,,False,,,,195/55 R15 Crosswind - Europe (unspecified),Europe,False,R15
+95,15-55-195ارمسترونج تايلاندي,Tire,Armstrong,Armstrong,Thailand,195.0,55.0,15.0,195/55 R15,Passenger,,,False,False,,,,,,,False,,,,195/55 R15 Armstrong - Thailand,Southeast Asia,False,R15
+96,15-55-195فورس لاند تايلاندي,Tire,Forceland,Forceland,Thailand,195.0,55.0,15.0,195/55 R15,Passenger,,,False,False,,,,,,,False,,,,195/55 R15 Forceland - Thailand,Southeast Asia,False,R15
+97,15-60-185 فورس لاند تايلاندي,Tire,Forceland,Forceland,Thailand,185.0,60.0,15.0,185/60 R15,Passenger,,,False,False,,,,,,,False,,,,185/60 R15 Forceland - Thailand,Southeast Asia,False,R15
+98,15-60-185ماتركس تايلاندي,Tire,Matrix,Matrix,Thailand,185.0,60.0,15.0,185/60 R15,Passenger,,,False,False,,,,,,,False,,,,185/60 R15 Matrix - Thailand,Southeast Asia,False,R15
+99,15-60-195 افانتك صيني,Tire,Avantech,Avantech,China,195.0,60.0,15.0,195/60 R15,Passenger,,,False,False,,,,,,,False,,,,195/60 R15 Avantech - China,East Asia,False,R15
+100,15-60-195 بلاك ليون فيتنامي 88V,Tire,Black Lion,Black Lion,Vietnam,195.0,60.0,15.0,195/60 R15,Passenger,88.0,V,False,False,,,,,,,False,,,,195/60 R15 Black Lion - Vietnam,Southeast Asia,False,R15
+101,15-60-195 تي بي بي تايلاندي,Tire,TBB,TBB,Thailand,195.0,60.0,15.0,195/60 R15,Passenger,,,False,False,,,,,,,False,,,,195/60 R15 TBB - Thailand,Southeast Asia,False,R15
+102,15-60-195 تيانفو صيني,Tire,Tianfu,Tianfu,China,195.0,60.0,15.0,195/60 R15,Passenger,,,False,False,,,,,,,False,,,,195/60 R15 Tianfu - China,East Asia,False,R15
+103,15-60-195 رود وينج صيني,Tire,Roadwing,Roadwing,China,195.0,60.0,15.0,195/60 R15,Passenger,,,False,False,,,,,,,False,,,,195/60 R15 Roadwing - China,East Asia,False,R15
+104,15-60-195 رودستون كوري,Tire,Roadstone,Roadstone,South Korea,195.0,60.0,15.0,195/60 R15,Passenger,,,False,False,,,,,,,False,,,,195/60 R15 Roadstone - South Korea,East Asia,False,R15
+105,15-60-195 زيتكس تايلاندى,Tire,Zeetex,Zeetex,Thailand,195.0,60.0,15.0,195/60 R15,Passenger,,,False,False,,,,,,,False,,,,195/60 R15 Zeetex - Thailand,Southeast Asia,False,R15
+106,15-60-195 ستارماكس تركي,Tire,Starmaxx,Starmaxx,Turkey,195.0,60.0,15.0,195/60 R15,Passenger,,,False,False,,,,,,,False,,,,195/60 R15 Starmaxx - Turkey,Middle East & Africa,False,R15
+107,15-60-195 صن وايد صيني,Tire,Sunwide,Sunwide,China,195.0,60.0,15.0,195/60 R15,Passenger,,,False,False,,,,,,,False,,,,195/60 R15 Sunwide - China,East Asia,False,R15
+108,15-60-195 فورس لاند صيني,Tire,Forceland,Forceland,China,195.0,60.0,15.0,195/60 R15,Passenger,,,False,False,,,,,,,False,,,,195/60 R15 Forceland - China,East Asia,False,R15
+109,15-60-195 كروس ويند اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),195.0,60.0,15.0,195/60 R15,Passenger,,,False,False,,,,,,,False,,,,195/60 R15 Crosswind - Europe (unspecified),Europe,False,R15
+110,15-60-195 لاندسبيدر تايلاندي,Tire,Landspider,Landspider,Thailand,195.0,60.0,15.0,195/60 R15,Passenger,,,False,False,,,,,,,False,,,,195/60 R15 Landspider - Thailand,Southeast Asia,False,R15
+111,15-60-195 لوفين كوري,Tire,Laufenn,Laufenn,South Korea,195.0,60.0,15.0,195/60 R15,Passenger,,,False,False,,,,,,,False,,,,195/60 R15 Laufenn - South Korea,East Asia,False,R15
+112,15-60-195 ليو تايلاندي 88H,Tire,Leao,Leao,Thailand,195.0,60.0,15.0,195/60 R15,Passenger,88.0,H,False,False,,,,,,,False,,,,195/60 R15 Leao - Thailand,Southeast Asia,False,R15
+113,15-60-195 هانكوك كوري,Tire,Hankook,Hankook,South Korea,195.0,60.0,15.0,195/60 R15,Passenger,,,False,False,,,,,,,False,,,,195/60 R15 Hankook - South Korea,East Asia,False,R15
+114,15-60-195سومو تومو ياباني,Tire,Sumitomo,Sumitomo,Japan,195.0,60.0,15.0,195/60 R15,Passenger,,,False,False,,,,,,,False,,,,195/60 R15 Sumitomo - Japan,East Asia,False,R15
+115,15-65-185 افانتك صيني,Tire,Avantech,Avantech,China,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 Avantech - China,East Asia,False,R15
+116,15-65-185 برينكس تايلاندى,Tire,Prinx,Prinx,Thailand,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 Prinx - Thailand,Southeast Asia,False,R15
+117,15-65-185 بلاك ليون فيتنامي 92H,Tire,Black Lion,Black Lion,Vietnam,185.0,65.0,15.0,185/65 R15,Passenger,92.0,H,False,False,,,,,,,False,,,,185/65 R15 Black Lion - Vietnam,Southeast Asia,False,R15
+118,15-65-185 تي بي بي تايلاندي,Tire,TBB,TBB,Thailand,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 TBB - Thailand,Southeast Asia,False,R15
+119,15-65-185 جى تى اندونيسى,Tire,GT Radial,GT Radial,Indonesia,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 GT Radial - Indonesia,Southeast Asia,False,R15
+120,15-65-185 دينامو فيتنامى,Tire,Dynamo,Dynamo,Vietnam,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 Dynamo - Vietnam,Southeast Asia,False,R15
+121,15-65-185 روفيلو فيتنامي دبل شفة,Tire,Rovelo,Rovelo,Vietnam,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,Rim protector,185/65 R15 Rovelo - Vietnam,Southeast Asia,False,R15
+122,15-65-185 زيتكس تايلاندى,Tire,Zeetex,Zeetex,Thailand,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 Zeetex - Thailand,Southeast Asia,False,R15
+123,15-65-185 فورس لاند تايلاندي,Tire,Forceland,Forceland,Thailand,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 Forceland - Thailand,Southeast Asia,False,R15
+124,15-65-185 فورس لاند صيني,Tire,Forceland,Forceland,China,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 Forceland - China,East Asia,False,R15
+125,15-65-185 كروس ويند اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 Crosswind - Europe (unspecified),Europe,False,R15
+126,15-65-185 كمهو كورى,Tire,Kumho,Kumho,South Korea,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 Kumho - South Korea,East Asia,False,R15
+127,15-65-185 لوفين كوري جديد,Tire,Laufenn,Laufenn,South Korea,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,New model,185/65 R15 Laufenn - South Korea,East Asia,False,R15
+128,15-65-185 ليو تايلاندي,Tire,Leao,Leao,Thailand,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 Leao - Thailand,Southeast Asia,False,R15
+129,15-65-185 ليون لورد صيني,Tire,Lionlord,Lionlord,China,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 Lionlord - China,East Asia,False,R15
+130,15-65-185 نكسن كوري 88H,Tire,Nexen,Nexen,South Korea,185.0,65.0,15.0,185/65 R15,Passenger,88.0,H,False,False,,,,,,,False,,,,185/65 R15 Nexen - South Korea,East Asia,False,R15
+131,15-65-185 هانكوك كورى,Tire,Hankook,Hankook,South Korea,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 Hankook - South Korea,East Asia,False,R15
+132,15-65-185 هانكوك مجرى,Tire,Hankook,Hankook,Hungary,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 Hankook - Hungary,Europe,False,R15
+133,15-65-185جوي رود صيني,Tire,Joyroad,Joyroad,China,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 Joyroad - China,East Asia,False,R15
+134,15-65-185رود وينج صيني,Tire,Roadwing,Roadwing,China,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 Roadwing - China,East Asia,False,R15
+135,15-65-185يوكوهاما ياباني,Tire,Yokohama,Yokohama,Japan,185.0,65.0,15.0,185/65 R15,Passenger,,,False,False,,,,,,,False,,,,185/65 R15 Yokohama - Japan,East Asia,False,R15
+136,15-65-195 افانتك صيني,Tire,Avantech,Avantech,China,195.0,65.0,15.0,195/65 R15,Passenger,,,False,False,,,,,,,False,,,,195/65 R15 Avantech - China,East Asia,False,R15
+137,15-65-195 امريكان رودستار تايلاندي,Tire,American Roadstar,American Roadstar,Thailand,195.0,65.0,15.0,195/65 R15,Passenger,,,False,False,,,,,,,False,,,,195/65 R15 American Roadstar - Thailand,Southeast Asia,False,R15
+138,15-65-195 تي بي بي تايلاندي,Tire,TBB,TBB,Thailand,195.0,65.0,15.0,195/65 R15,Passenger,,,False,False,,,,,,,False,,,,195/65 R15 TBB - Thailand,Southeast Asia,False,R15
+139,15-65-195 صن فل صيني,Tire,Sunfull,Sunfull,China,195.0,65.0,15.0,195/65 R15,Passenger,,,False,False,,,,,,,False,,,,195/65 R15 Sunfull - China,East Asia,False,R15
+140,15-65-195 فورتين تايلاندي,Tire,Fortune,Fortune,Thailand,195.0,65.0,15.0,195/65 R15,Passenger,,,False,False,,,,,,,False,,,,195/65 R15 Fortune - Thailand,Southeast Asia,False,R15
+141,15-65-195 فورس لاند صيني,Tire,Forceland,Forceland,China,195.0,65.0,15.0,195/65 R15,Passenger,,,False,False,,,,,,,False,,,,195/65 R15 Forceland - China,East Asia,False,R15
+142,15-65-195 كمهو كورى,Tire,Kumho,Kumho,South Korea,195.0,65.0,15.0,195/65 R15,Passenger,,,False,False,,,,,,,False,,,,195/65 R15 Kumho - South Korea,East Asia,False,R15
+143,15-65-195 كورس ويندا اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),195.0,65.0,15.0,195/65 R15,Passenger,,,False,False,,,,,,,False,,,,195/65 R15 Crosswind - Europe (unspecified),Europe,False,R15
+144,15-65-195 لوفين كوري جديد,Tire,Laufenn,Laufenn,South Korea,195.0,65.0,15.0,195/65 R15,Passenger,,,False,False,,,,,,,False,,,New model,195/65 R15 Laufenn - South Korea,East Asia,False,R15
+145,15-65-195 ليو تايلاندي,Tire,Leao,Leao,Thailand,195.0,65.0,15.0,195/65 R15,Passenger,,,False,False,,,,,,,False,,,,195/65 R15 Leao - Thailand,Southeast Asia,False,R15
+146,15-65-195 نكسن كوري 91H,Tire,Nexen,Nexen,South Korea,195.0,65.0,15.0,195/65 R15,Passenger,91.0,H,False,False,,,,,,,False,,,,195/65 R15 Nexen - South Korea,East Asia,False,R15
+147,15-65-195 هانكوك مجري,Tire,Hankook,Hankook,Hungary,195.0,65.0,15.0,195/65 R15,Passenger,,,False,False,,,,,,,False,,,,195/65 R15 Hankook - Hungary,Europe,False,R15
+148,15-65-195ترانسميت صيني,Tire,Transmate,Transmate,China,195.0,65.0,15.0,195/65 R15,Passenger,,,False,False,,,,,,,False,,,,195/65 R15 Transmate - China,East Asia,False,R15
+149,15-65-195صن وايد صيني,Tire,Sunwide,Sunwide,China,195.0,65.0,15.0,195/65 R15,Passenger,,,False,False,,,,,,,False,,,,195/65 R15 Sunwide - China,East Asia,False,R15
+150,15-65-205 تي بي بي تايلاندي,Tire,TBB,TBB,Thailand,205.0,65.0,15.0,205/65 R15,Passenger,,,False,False,,,,,,,False,,,,205/65 R15 TBB - Thailand,Southeast Asia,False,R15
+151,15-65-205 فورس لاند صيني,Tire,Forceland,Forceland,China,205.0,65.0,15.0,205/65 R15,Passenger,,,False,False,,,,,,,False,,,,205/65 R15 Forceland - China,East Asia,False,R15
+152,15-65-205 كريستال صيني,Tire,Kristal,Kristal,China,205.0,65.0,15.0,205/65 R15,Passenger,,,False,False,,,,,,,False,,,,205/65 R15 Kristal - China,East Asia,False,R15
+153,15-65-205 لاندسبيدر تايلاندي جديد,Tire,Landspider,Landspider,Thailand,205.0,65.0,15.0,205/65 R15,Passenger,,,False,False,,,,,,,False,,,New model,205/65 R15 Landspider - Thailand,Southeast Asia,False,R15
+154,15-65-205ديليوم اندونيسي,Tire,Delium,Delium,Indonesia,205.0,65.0,15.0,205/65 R15,Passenger,,,False,False,,,,,,,False,,,,205/65 R15 Delium - Indonesia,Southeast Asia,False,R15
+155,15-65-205رودكس صيني,Tire,RoadX,RoadX,China,205.0,65.0,15.0,205/65 R15,Passenger,,,False,False,,,,,,,False,,,,205/65 R15 RoadX - China,East Asia,False,R15
+156,15-70-215 بريدجستون تايلاندي R623,Tire,Bridgestone,Bridgestone,Thailand,215.0,70.0,15.0,215/70 R15,Passenger,,,False,False,,,,,,,False,,,,215/70 R15 Bridgestone - Thailand,Southeast Asia,False,R15
+157,15-70-215 تي بي بي تايلاندي ربع نقل,Tire,TBB,TBB,Thailand,215.0,70.0,15.0,215/70 R15,Light Truck,,,False,False,,,,,,,False,,,Light truck,215/70 R15 TBB - Thailand,Southeast Asia,False,R15
+158,15-70-215 رودكس فيتنامي 10PR,Tire,RoadX,RoadX,Vietnam,215.0,70.0,15.0,215/70 R15,Light Truck,,,False,False,10.0,,,,,,False,,,,215/70 R15 RoadX - Vietnam,Southeast Asia,False,R15
+159,15-70-215ليو تايلاندي خط,Tire,Leao,Leao,Thailand,215.0,70.0,15.0,215/70 R15,Passenger,,,False,False,,,,,,,False,,,Line,215/70 R15 Leao - Thailand,Southeast Asia,False,R15
+160,15-70-225 بطلس تركي 10 تيلة,Tire,Petlas,Petlas,Turkey,225.0,70.0,15.0,225/70 R15,Light Truck,,,False,False,10.0,,,,,,False,,,,225/70 R15 Petlas - Turkey,Middle East & Africa,False,R15
+161,15-70-225فورس لاند تايلاندي,Tire,Forceland,Forceland,Thailand,225.0,70.0,15.0,225/70 R15,Passenger,,,False,False,,,,,,,False,,,,225/70 R15 Forceland - Thailand,Southeast Asia,False,R15
+162,15-70-225ليو تايلاندي خط,Tire,Leao,Leao,Thailand,225.0,70.0,15.0,225/70 R15,Passenger,,,False,False,,,,,,,False,,,Line,225/70 R15 Leao - Thailand,Southeast Asia,False,R15
+163,15-70-255 نكسن كوري 101H,Tire,Nexen,Nexen,South Korea,255.0,70.0,15.0,255/70 R15,Passenger,101.0,H,False,False,,,,,,,False,,,,255/70 R15 Nexen - South Korea,East Asia,False,R15
+164,16-4-100 BBS اسود سبايدر 7 انش ET38,Rim,BBS,BBS,Unknown,,,16.0,,,,,False,False,,4.0,4x100,7,38,Black spider,False,,,,"16"" BBS Black spider (4x100)",Unknown,False,R16
+165,16-4-100 ابيض HRS تايواني 7 انش ET40,Rim,HRS,HRS,Taiwan,,,16.0,,,,,False,False,,4.0,4x100,7,40,White,False,,,,"16"" HRS White (4x100)",East Asia,False,R16
+166,16-4-100-114 OZ ايطالي اسود لامع 7 انش ET40,Rim,OZ,OZ,Italy,,,16.0,,,,,False,False,,4.0,4x100/114.3,7,40,Gloss black,False,,,,"16"" OZ Gloss black (4x100/114.3)",Europe,False,R16
+167,16-4-100-114 WORK ذهبي بشفة نيكل 7 انش ET38,Rim,Work,Work,Unknown,,,16.0,,,,,False,False,,4.0,4x100/114.3,7,38,"Gold, nickel lip",False,,,,"16"" Work Gold, nickel lip (4x100/114.3)",Unknown,False,R16
+168,16-4-100-114 XXR ذهبي 7 انش ET30,Rim,XXR,XXR,Unknown,,,16.0,,,,,False,False,,4.0,4x100/114.3,7,30,Gold,False,,,,"16"" XXR Gold (4x100/114.3)",Unknown,False,R16
+169,16-4-100-114 انفورجيد ازرق 7 ريشة 7.5 انش ET28,Rim,Enforged,Enforged,Unknown,,,16.0,,,,,False,False,,4.0,4x100/114.3,7.5,28,"Blue, 7-spoke",False,,,,"16"" Enforged Blue, 7-spoke (4x100/114.3)",Unknown,False,R16
+170,16-4-100-114 روتي فورم فضي 8-9 انش ET25-35,Rim,Rotiform,Rotiform,Unknown,,,16.0,,,,,False,False,,4.0,4x100/114.3,8-9,25-35,Silver,False,,,,"16"" Rotiform Silver (4x100/114.3)",Unknown,False,R16
+171,16-45-195 اطلس تايلاندي,Tire,Atlas,Atlas,Thailand,195.0,45.0,16.0,195/45 R16,Passenger,,,False,False,,,,,,,False,,,,195/45 R16 Atlas - Thailand,Southeast Asia,False,R16
+172,16-45-205 بلاك ليون فيتنامي 87W XL,Tire,Black Lion,Black Lion,Vietnam,205.0,45.0,16.0,205/45 R16,Passenger,87.0,W,True,False,,,,,,,False,,,,205/45 R16 Black Lion - Vietnam,Southeast Asia,False,R16
+173,16-50-205 ترانسميت صيني,Tire,Transmate,Transmate,China,205.0,50.0,16.0,205/50 R16,Passenger,,,False,False,,,,,,,False,,,,205/50 R16 Transmate - China,East Asia,False,R16
+174,16-5-100-114-112 FR فضي 7 انش ET42,Rim,FR,FR,Unknown,,,16.0,,,,,False,False,,5.0,5x100/114.3/112,7,42,Silver,False,,,,"16"" FR Silver (5x100/114.3/112)",Unknown,False,R16
+175,16-5-100-114-112 مازدا اسبايدر 6.5 انش,Rim,Mazda OEM,Mazda OEM,Unknown,,,16.0,,,,,False,False,,5.0,5x100/114.3/112,6.5,,Spider,True,,,,"16"" Mazda OEM Spider (5x100/114.3/112)",Unknown,False,R16
+176,16-5-108 سيتروين اصلي 7 انش ET30,Rim,Citroen OEM,Citroen OEM,Unknown,,,16.0,,,,,False,False,,5.0,5x108,7,30,Original,True,,,,"16"" Citroen OEM Original (5x108)",Unknown,False,R16
+177,16-5-114-112 لينسو تايلاندي ريش سلك نيكل 7 انش,Rim,Lenso,Lenso,Thailand,,,16.0,,,,,False,False,,5.0,5x114.3/112,7,,"Wire spokes, nickel",False,,,,"16"" Lenso Wire spokes, nickel (5x114.3/112)",Southeast Asia,False,R16
+178,16-55-195 بلاك ليون فيتنامي 91V,Tire,Black Lion,Black Lion,Vietnam,195.0,55.0,16.0,195/55 R16,Passenger,91.0,V,False,False,,,,,,,False,,,,195/55 R16 Black Lion - Vietnam,Southeast Asia,False,R16
+179,16-55-195 روفيلو فيتنامي,Tire,Rovelo,Rovelo,Vietnam,195.0,55.0,16.0,195/55 R16,Passenger,,,False,False,,,,,,,False,,,,195/55 R16 Rovelo - Vietnam,Southeast Asia,False,R16
+180,16-55-195 فورس لاند تايلاندي 87V دبل شفة,Tire,Forceland,Forceland,Thailand,195.0,55.0,16.0,195/55 R16,Passenger,87.0,V,False,False,,,,,,,False,,,Rim protector,195/55 R16 Forceland - Thailand,Southeast Asia,False,R16
+181,16-55-205 ارمسترونج تايلاندى دبل شفه,Tire,Armstrong,Armstrong,Thailand,205.0,55.0,16.0,205/55 R16,Passenger,,,False,False,,,,,,,False,,,Rim protector,205/55 R16 Armstrong - Thailand,Southeast Asia,False,R16
+182,16-55-205 افانتك صيني,Tire,Avantech,Avantech,China,205.0,55.0,16.0,205/55 R16,Passenger,,,False,False,,,,,,,False,,,,205/55 R16 Avantech - China,East Asia,False,R16
+183,16-55-205 امريكان رودستار تايلاندي,Tire,American Roadstar,American Roadstar,Thailand,205.0,55.0,16.0,205/55 R16,Passenger,,,False,False,,,,,,,False,,,,205/55 R16 American Roadstar - Thailand,Southeast Asia,False,R16
+184,16-55-205 بلاك ليون فيتنامي 94W XL,Tire,Black Lion,Black Lion,Vietnam,205.0,55.0,16.0,205/55 R16,Passenger,94.0,W,True,False,,,,,,,False,,,,205/55 R16 Black Lion - Vietnam,Southeast Asia,False,R16
+185,16-55-205 تويو ياباني,Tire,Toyo,Toyo,Japan,205.0,55.0,16.0,205/55 R16,Passenger,,,False,False,,,,,,,False,,,,205/55 R16 Toyo - Japan,East Asia,False,R16
+186,16-55-205 جويرود صيني,Tire,Joyroad,Joyroad,China,205.0,55.0,16.0,205/55 R16,Passenger,,,False,False,,,,,,,False,,,,205/55 R16 Joyroad - China,East Asia,False,R16
+187,16-55-205 روفيلو كمبودي,Tire,Rovelo,Rovelo,Cambodia,205.0,55.0,16.0,205/55 R16,Passenger,,,False,False,,,,,,,False,,,,205/55 R16 Rovelo - Cambodia,Southeast Asia,False,R16
+188,16-55-205 فورس لاند تايلاندي جديد,Tire,Forceland,Forceland,Thailand,205.0,55.0,16.0,205/55 R16,Passenger,,,False,False,,,,,,,False,,,New model,205/55 R16 Forceland - Thailand,Southeast Asia,False,R16
+189,16-55-205 فورس لاند صيني,Tire,Forceland,Forceland,China,205.0,55.0,16.0,205/55 R16,Passenger,,,False,False,,,,,,,False,,,,205/55 R16 Forceland - China,East Asia,False,R16
+190,16-55-205 كونتيننتال سلوفاني,Tire,Continental,Continental,Slovenia,205.0,55.0,16.0,205/55 R16,Passenger,,,False,False,,,,,,,False,,,,205/55 R16 Continental - Slovenia,Europe,False,R16
+191,16-55-205 لوفين كوري جديد,Tire,Laufenn,Laufenn,South Korea,205.0,55.0,16.0,205/55 R16,Passenger,,,False,False,,,,,,,False,,,New model,205/55 R16 Laufenn - South Korea,East Asia,False,R16
+192,16-55-205 لينستون صيني,Tire,Linstone,Linstone,China,205.0,55.0,16.0,205/55 R16,Passenger,,,False,False,,,,,,,False,,,,205/55 R16 Linstone - China,East Asia,False,R16
+193,16-55-205 ماتريكس تايلاندى جديد,Tire,Matrix,Matrix,Thailand,205.0,55.0,16.0,205/55 R16,Passenger,,,False,False,,,,,,,False,,,New model,205/55 R16 Matrix - Thailand,Southeast Asia,False,R16
+194,16-55-205 ماكسن صيني 91V,Tire,Maxxen,Maxxen,China,205.0,55.0,16.0,205/55 R16,Passenger,91.0,V,False,False,,,,,,,False,,,,205/55 R16 Maxxen - China,East Asia,False,R16
+195,16-55-205 نكسن كوري,Tire,Nexen,Nexen,South Korea,205.0,55.0,16.0,205/55 R16,Passenger,,,False,False,,,,,,,False,,,,205/55 R16 Nexen - South Korea,East Asia,False,R16
+196,16-55-205ترانسميت صيني,Tire,Transmate,Transmate,China,205.0,55.0,16.0,205/55 R16,Passenger,,,False,False,,,,,,,False,,,,205/55 R16 Transmate - China,East Asia,False,R16
+197,16-60-195 كروس ويند اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),195.0,60.0,16.0,195/60 R16,Passenger,,,False,False,,,,,,,False,,,,195/60 R16 Crosswind - Europe (unspecified),Europe,False,R16
+198,16-60-205 تي بي بي تايلاندي,Tire,TBB,TBB,Thailand,205.0,60.0,16.0,205/60 R16,Passenger,,,False,False,,,,,,,False,,,,205/60 R16 TBB - Thailand,Southeast Asia,False,R16
+199,16-60-205 جودترب تايلاندي,Tire,Goodtrip,Goodtrip,Thailand,205.0,60.0,16.0,205/60 R16,Passenger,,,False,False,,,,,,,False,,,,205/60 R16 Goodtrip - Thailand,Southeast Asia,False,R16
+200,16-60-205 صن وايد صيني,Tire,Sunwide,Sunwide,China,205.0,60.0,16.0,205/60 R16,Passenger,,,False,False,,,,,,,False,,,,205/60 R16 Sunwide - China,East Asia,False,R16
+201,16-60-205 لينستون صيني,Tire,Linstone,Linstone,China,205.0,60.0,16.0,205/60 R16,Passenger,,,False,False,,,,,,,False,,,,205/60 R16 Linstone - China,East Asia,False,R16
+202,16-60-205 ماتريكس تايلاندى,Tire,Matrix,Matrix,Thailand,205.0,60.0,16.0,205/60 R16,Passenger,,,False,False,,,,,,,False,,,,205/60 R16 Matrix - Thailand,Southeast Asia,False,R16
+203,16-60-205 نكسن كوري 92V,Tire,Nexen,Nexen,South Korea,205.0,60.0,16.0,205/60 R16,Passenger,92.0,V,False,False,,,,,,,False,,,,205/60 R16 Nexen - South Korea,East Asia,False,R16
+204,16-60-205 هانكوك كوري,Tire,Hankook,Hankook,South Korea,205.0,60.0,16.0,205/60 R16,Passenger,,,False,False,,,,,,,False,,,,205/60 R16 Hankook - South Korea,East Asia,False,R16
+205,16-60-205 يوكوهاما ياباني,Tire,Yokohama,Yokohama,Japan,205.0,60.0,16.0,205/60 R16,Passenger,,,False,False,,,,,,,False,,,,205/60 R16 Yokohama - Japan,East Asia,False,R16
+206,16-60-205كورس ويندا اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),205.0,60.0,16.0,205/60 R16,Passenger,,,False,False,,,,,,,False,,,,205/60 R16 Crosswind - Europe (unspecified),Europe,False,R16
+207,16-60-215 كروس ويند اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),215.0,60.0,16.0,215/60 R16,Passenger,,,False,False,,,,,,,False,,,,215/60 R16 Crosswind - Europe (unspecified),Europe,False,R16
+208,16-60-235 اطلس تايلاندي,Tire,Atlas,Atlas,Thailand,235.0,60.0,16.0,235/60 R16,Passenger,,,False,False,,,,,,,False,,,,235/60 R16 Atlas - Thailand,Southeast Asia,False,R16
+209,16-60-235 جي تي اندونيسي,Tire,GT Radial,GT Radial,Indonesia,235.0,60.0,16.0,235/60 R16,Passenger,,,False,False,,,,,,,False,,,,235/60 R16 GT Radial - Indonesia,Southeast Asia,False,R16
+210,16-60-235 كروس ويند اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),235.0,60.0,16.0,235/60 R16,Passenger,,,False,False,,,,,,,False,,,,235/60 R16 Crosswind - Europe (unspecified),Europe,False,R16
+211,16-65-215 جود ترب تايلاندي,Tire,Goodtrip,Goodtrip,Thailand,215.0,65.0,16.0,215/65 R16,Passenger,,,False,False,,,,,,,False,,,,215/65 R16 Goodtrip - Thailand,Southeast Asia,False,R16
+212,16-65-215 لاندسيل مغربي,Tire,Landsail,Landsail,Morocco,215.0,65.0,16.0,215/65 R16,Passenger,,,False,False,,,,,,,False,,,,215/65 R16 Landsail - Morocco,Middle East & Africa,False,R16
+213,16-65-215 نكسن كوري 98H,Tire,Nexen,Nexen,South Korea,215.0,65.0,16.0,215/65 R16,Passenger,98.0,H,False,False,,,,,,,False,,,,215/65 R16 Nexen - South Korea,East Asia,False,R16
+214,16-65-215بريدجستون تركي,Tire,Bridgestone,Bridgestone,Turkey,215.0,65.0,16.0,215/65 R16,Passenger,,,False,False,,,,,,,False,,,,215/65 R16 Bridgestone - Turkey,Middle East & Africa,False,R16
+215,16-65-215روفيلو فيتنامي,Tire,Rovelo,Rovelo,Vietnam,215.0,65.0,16.0,215/65 R16,Passenger,,,False,False,,,,,,,False,,,,215/65 R16 Rovelo - Vietnam,Southeast Asia,False,R16
+216,16-65-215ستار  ماكس تركي,Tire,Starmaxx,Starmaxx,Turkey,215.0,65.0,16.0,215/65 R16,Passenger,,,False,False,,,,,,,False,,,,215/65 R16 Starmaxx - Turkey,Middle East & Africa,False,R16
+217,16-70-215 زيتكس تايلاندى,Tire,Zeetex,Zeetex,Thailand,215.0,70.0,16.0,215/70 R16,Passenger,,,False,False,,,,,,,False,,,,215/70 R16 Zeetex - Thailand,Southeast Asia,False,R16
+218,16-70-215 نكسن كوري 100H,Tire,Nexen,Nexen,South Korea,215.0,70.0,16.0,215/70 R16,Passenger,100.0,H,False,False,,,,,,,False,,,,215/70 R16 Nexen - South Korea,East Asia,False,R16
+219,17-40-195 نان كانج تايواني,Tire,Nankang,Nankang,Taiwan,195.0,40.0,17.0,195/40 R17,Passenger,,,False,False,,,,,,,False,,,,195/40 R17 Nankang - Taiwan,East Asia,False,R17
+220,17-45-205 ديستون تايلاندي شجرة,Tire,Deestone,Deestone,Thailand,205.0,45.0,17.0,205/45 R17,Passenger,,,False,False,,,,,,,False,,,Tree pattern,205/45 R17 Deestone - Thailand,Southeast Asia,False,R17
+221,17-45-205 زيتكس تايلاندي,Tire,Zeetex,Zeetex,Thailand,205.0,45.0,17.0,205/45 R17,Passenger,,,False,False,,,,,,,False,,,,205/45 R17 Zeetex - Thailand,Southeast Asia,False,R17
+222,17-45-215 فورس لاند تايلاندي,Tire,Forceland,Forceland,Thailand,215.0,45.0,17.0,215/45 R17,Passenger,,,False,False,,,,,,,False,,,,215/45 R17 Forceland - Thailand,Southeast Asia,False,R17
+223,17-45-215مارشال فيتنامي,Tire,Marshal,Marshal,Vietnam,215.0,45.0,17.0,215/45 R17,Passenger,,,False,False,,,,,,,False,,,,215/45 R17 Marshal - Vietnam,Southeast Asia,False,R17
+224,17-45-225 روفيلو فيتنامي دبل شفه,Tire,Rovelo,Rovelo,Vietnam,225.0,45.0,17.0,225/45 R17,Passenger,,,False,False,,,,,,,False,,,Rim protector,225/45 R17 Rovelo - Vietnam,Southeast Asia,False,R17
+225,17-45-225 هانكوك كورى,Tire,Hankook,Hankook,South Korea,225.0,45.0,17.0,225/45 R17,Passenger,,,False,False,,,,,,,False,,,,225/45 R17 Hankook - South Korea,East Asia,False,R17
+226,17-45-235 اطلس تايلاندي,Tire,Atlas,Atlas,Thailand,235.0,45.0,17.0,235/45 R17,Passenger,,,False,False,,,,,,,False,,,,235/45 R17 Atlas - Thailand,Southeast Asia,False,R17
+227,17-45-235 هانكوك كوري,Tire,Hankook,Hankook,South Korea,235.0,45.0,17.0,235/45 R17,Passenger,,,False,False,,,,,,,False,,,,235/45 R17 Hankook - South Korea,East Asia,False,R17
+228,17-50-205 ديلنتي مغربي,Tire,Delinte,Delinte,Morocco,205.0,50.0,17.0,205/50 R17,Passenger,,,False,False,,,,,,,False,,,,205/50 R17 Delinte - Morocco,Middle East & Africa,False,R17
+229,17-50-215 امريكان رودستار تايلاندي,Tire,American Roadstar,American Roadstar,Thailand,215.0,50.0,17.0,215/50 R17,Passenger,,,False,False,,,,,,,False,,,,215/50 R17 American Roadstar - Thailand,Southeast Asia,False,R17
+230,17-50-215 تويو ياباني,Tire,Toyo,Toyo,Japan,215.0,50.0,17.0,215/50 R17,Passenger,,,False,False,,,,,,,False,,,,215/50 R17 Toyo - Japan,East Asia,False,R17
+231,17-50-215 فورس لاند تايلاندي,Tire,Forceland,Forceland,Thailand,215.0,50.0,17.0,215/50 R17,Passenger,,,False,False,,,,,,,False,,,,215/50 R17 Forceland - Thailand,Southeast Asia,False,R17
+232,17-50-215 لوفين كوري,Tire,Laufenn,Laufenn,South Korea,215.0,50.0,17.0,215/50 R17,Passenger,,,False,False,,,,,,,False,,,,215/50 R17 Laufenn - South Korea,East Asia,False,R17
+233,17-50-215زيتكس تايلاندي,Tire,Zeetex,Zeetex,Thailand,215.0,50.0,17.0,215/50 R17,Passenger,,,False,False,,,,,,,False,,,,215/50 R17 Zeetex - Thailand,Southeast Asia,False,R17
+234,17-50-215فولدا الماني دبل شفه,Tire,Fulda,Fulda,Germany,215.0,50.0,17.0,215/50 R17,Passenger,,,False,False,,,,,,,False,,,Rim protector,215/50 R17 Fulda - Germany,Europe,False,R17
+235,17-50-215نكسن كوري دبل شفه 95W,Tire,Nexen,Nexen,South Korea,215.0,50.0,17.0,215/50 R17,Passenger,95.0,W,False,False,,,,,,,False,,,Rim protector,215/50 R17 Nexen - South Korea,East Asia,False,R17
+236,17-50-225 اطلس تايلاندي دبل شفه,Tire,Atlas,Atlas,Thailand,225.0,50.0,17.0,225/50 R17,Passenger,,,False,False,,,,,,,False,,,Rim protector,225/50 R17 Atlas - Thailand,Southeast Asia,False,R17
+237,17-50-225 بريدجستون بولندي ران فلات RFT,Tire,Bridgestone,Bridgestone,Poland,225.0,50.0,17.0,225/50 R17,Passenger,,,False,True,,,,,,,False,,,Run-flat,225/50 R17 Bridgestone - Poland,Europe,False,R17
+238,17-50-225 بلاك ليون فيتنامي 98Y,Tire,Black Lion,Black Lion,Vietnam,225.0,50.0,17.0,225/50 R17,Passenger,98.0,Y,False,False,,,,,,,False,,,,225/50 R17 Black Lion - Vietnam,Southeast Asia,False,R17
+239,17-50-225 جودرايد تايلاندى,Tire,Goodride,Goodride,Thailand,225.0,50.0,17.0,225/50 R17,Passenger,,,False,False,,,,,,,False,,,,225/50 R17 Goodride - Thailand,Southeast Asia,False,R17
+240,17-50-225 كروس ويند اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),225.0,50.0,17.0,225/50 R17,Passenger,,,False,False,,,,,,,False,,,,225/50 R17 Crosswind - Europe (unspecified),Europe,False,R17
+241,17-50-225زيتكس تايلاندي,Tire,Zeetex,Zeetex,Thailand,225.0,50.0,17.0,225/50 R17,Passenger,,,False,False,,,,,,,False,,,,225/50 R17 Zeetex - Thailand,Southeast Asia,False,R17
+242,17-50-225فريديشتاين هندي,Tire,Vredestein,Vredestein,India,225.0,50.0,17.0,225/50 R17,Passenger,,,False,False,,,,,,,False,,,,225/50 R17 Vredestein - India,South Asia,False,R17
+243,17-5-100-114-112 SSW تايلاندي 7.5 انش,Rim,SSW,SSW,Thailand,,,17.0,,,,,False,False,,5.0,5x100/114.3/112,7.5,,Standard,False,,,,"17"" SSW Standard (5x100/114.3/112)",Southeast Asia,False,R17
+244,17-5-114-112 بي بي اس فضي 8 انش,Rim,BBS,BBS,Unknown,,,17.0,,,,,False,False,,5.0,5x114.3/112,8,,Silver,False,,,,"17"" BBS Silver (5x114.3/112)",Unknown,False,R17
+245,17-55-205 كروس ويند اوروبي 95V,Tire,Crosswind,Crosswind,Europe (unspecified),205.0,55.0,17.0,205/55 R17,Passenger,95.0,V,False,False,,,,,,,False,,,,205/55 R17 Crosswind - Europe (unspecified),Europe,False,R17
+246,17-55-205 نكسن كوري,Tire,Nexen,Nexen,South Korea,205.0,55.0,17.0,205/55 R17,Passenger,,,False,False,,,,,,,False,,,,205/55 R17 Nexen - South Korea,East Asia,False,R17
+247,17-55-205ستار ماكس تركي,Tire,Starmaxx,Starmaxx,Turkey,205.0,55.0,17.0,205/55 R17,Passenger,,,False,False,,,,,,,False,,,,205/55 R17 Starmaxx - Turkey,Middle East & Africa,False,R17
+248,17-55-215 فورس لاند تايلاندي,Tire,Forceland,Forceland,Thailand,215.0,55.0,17.0,215/55 R17,Passenger,,,False,False,,,,,,,False,,,,215/55 R17 Forceland - Thailand,Southeast Asia,False,R17
+249,17-55-215 كروس ويند اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),215.0,55.0,17.0,215/55 R17,Passenger,,,False,False,,,,,,,False,,,,215/55 R17 Crosswind - Europe (unspecified),Europe,False,R17
+250,17-55-215 لاندسبيدر تايلاندي,Tire,Landspider,Landspider,Thailand,215.0,55.0,17.0,215/55 R17,Passenger,,,False,False,,,,,,,False,,,,215/55 R17 Landspider - Thailand,Southeast Asia,False,R17
+251,17-55-225 كروس ويند اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),225.0,55.0,17.0,225/55 R17,Passenger,,,False,False,,,,,,,False,,,,225/55 R17 Crosswind - Europe (unspecified),Europe,False,R17
+252,17-55-235ارمسترونج تايلاندي,Tire,Armstrong,Armstrong,Thailand,235.0,55.0,17.0,235/55 R17,Passenger,,,False,False,,,,,,,False,,,,235/55 R17 Armstrong - Thailand,Southeast Asia,False,R17
+253,17-60-215تي بي بي تايلاندي,Tire,TBB,TBB,Thailand,215.0,60.0,17.0,215/60 R17,Passenger,,,False,False,,,,,,,False,,,,215/60 R17 TBB - Thailand,Southeast Asia,False,R17
+254,17-60-225 بلاك ليون فيتنامي 103V,Tire,Black Lion,Black Lion,Vietnam,225.0,60.0,17.0,225/60 R17,Passenger,103.0,V,False,False,,,,,,,False,,,,225/60 R17 Black Lion - Vietnam,Southeast Asia,False,R17
+255,17-60-225 تويو ياباني 99H,Tire,Toyo,Toyo,Japan,225.0,60.0,17.0,225/60 R17,Passenger,99.0,H,False,False,,,,,,,False,,,,225/60 R17 Toyo - Japan,East Asia,False,R17
+256,17-60-225 جودرايد تايلاندي,Tire,Goodride,Goodride,Thailand,225.0,60.0,17.0,225/60 R17,Passenger,,,False,False,,,,,,,False,,,,225/60 R17 Goodride - Thailand,Southeast Asia,False,R17
+257,17-60-225 كروس ويند اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),225.0,60.0,17.0,225/60 R17,Passenger,,,False,False,,,,,,,False,,,,225/60 R17 Crosswind - Europe (unspecified),Europe,False,R17
+258,17-60-225 كمهو كورى,Tire,Kumho,Kumho,South Korea,225.0,60.0,17.0,225/60 R17,Passenger,,,False,False,,,,,,,False,,,,225/60 R17 Kumho - South Korea,East Asia,False,R17
+259,17-60-225 هانكوك مجرى,Tire,Hankook,Hankook,Hungary,225.0,60.0,17.0,225/60 R17,Passenger,,,False,False,,,,,,,False,,,,225/60 R17 Hankook - Hungary,Europe,False,R17
+260,17-60-225 يوكوهاما ياباني,Tire,Yokohama,Yokohama,Japan,225.0,60.0,17.0,225/60 R17,Passenger,,,False,False,,,,,,,False,,,,225/60 R17 Yokohama - Japan,East Asia,False,R17
+261,17-60-225ديليوم اندونيسي,Tire,Delium,Delium,Indonesia,225.0,60.0,17.0,225/60 R17,Passenger,,,False,False,,,,,,,False,,,,225/60 R17 Delium - Indonesia,Southeast Asia,False,R17
+262,17-60-225نكسن كوري,Tire,Nexen,Nexen,South Korea,225.0,60.0,17.0,225/60 R17,Passenger,,,False,False,,,,,,,False,,,,225/60 R17 Nexen - South Korea,East Asia,False,R17
+263,17-65-225 اوريو تايلاندي,Tire,Orio,Orio,Thailand,225.0,65.0,17.0,225/65 R17,Passenger,,,False,False,,,,,,,False,,,,225/65 R17 Orio - Thailand,Southeast Asia,False,R17
+264,17-65-225 تي بي بي تايلاندي,Tire,TBB,TBB,Thailand,225.0,65.0,17.0,225/65 R17,Passenger,,,False,False,,,,,,,False,,,,225/65 R17 TBB - Thailand,Southeast Asia,False,R17
+265,17-65-235 ماتريكس تايلاندى,Tire,Matrix,Matrix,Thailand,235.0,65.0,17.0,235/65 R17,Passenger,,,False,False,,,,,,,False,,,,235/65 R17 Matrix - Thailand,Southeast Asia,False,R17
+266,17-65-265 اطلس تايلاندي ناعم,Tire,Atlas,Atlas,Thailand,265.0,65.0,17.0,265/65 R17,Passenger,,,False,False,,,,,,,False,,,Smooth tread,265/65 R17 Atlas - Thailand,Southeast Asia,False,R17
+267,17-65-265 لاندسيل تايلاندي,Tire,Landsail,Landsail,Thailand,265.0,65.0,17.0,265/65 R17,Passenger,,,False,False,,,,,,,False,,,,265/65 R17 Landsail - Thailand,Southeast Asia,False,R17
+268,18-40-225 ارمسترونج تايلاندي,Tire,Armstrong,Armstrong,Thailand,225.0,40.0,18.0,225/40 R18,Passenger,,,False,False,,,,,,,False,,,,225/40 R18 Armstrong - Thailand,Southeast Asia,False,R18
+269,18-40-225 فورس لاند تايلاندي,Tire,Forceland,Forceland,Thailand,225.0,40.0,18.0,225/40 R18,Passenger,,,False,False,,,,,,,False,,,,225/40 R18 Forceland - Thailand,Southeast Asia,False,R18
+270,18-40-225 كروس ويند اوروبي 92Y,Tire,Crosswind,Crosswind,Europe (unspecified),225.0,40.0,18.0,225/40 R18,Passenger,92.0,Y,False,False,,,,,,,False,,,,225/40 R18 Crosswind - Europe (unspecified),Europe,False,R18
+271,18-40-235 فورتين تايلاندي,Tire,Fortune,Fortune,Thailand,235.0,40.0,18.0,235/40 R18,Passenger,,,False,False,,,,,,,False,,,,235/40 R18 Fortune - Thailand,Southeast Asia,False,R18
+272,18-45-225 اطلس تايلاندي,Tire,Atlas,Atlas,Thailand,225.0,45.0,18.0,225/45 R18,Passenger,,,False,False,,,,,,,False,,,,225/45 R18 Atlas - Thailand,Southeast Asia,False,R18
+273,18-45-225 جودرايد تايلاندى,Tire,Goodride,Goodride,Thailand,225.0,45.0,18.0,225/45 R18,Passenger,,,False,False,,,,,,,False,,,,225/45 R18 Goodride - Thailand,Southeast Asia,False,R18
+274,18-45-225 كروس ويند اوروبي,Tire,Crosswind,Crosswind,Europe (unspecified),225.0,45.0,18.0,225/45 R18,Passenger,,,False,False,,,,,,,False,,,,225/45 R18 Crosswind - Europe (unspecified),Europe,False,R18
+275,18-45-225زيتكس تايلاندي,Tire,Zeetex,Zeetex,Thailand,225.0,45.0,18.0,225/45 R18,Passenger,,,False,False,,,,,,,False,,,,225/45 R18 Zeetex - Thailand,Southeast Asia,False,R18
+276,18-45-245 لوفين كوري,Tire,Laufenn,Laufenn,South Korea,245.0,45.0,18.0,245/45 R18,Passenger,,,False,False,,,,,,,False,,,,245/45 R18 Laufenn - South Korea,East Asia,False,R18
+277,18-45-245 هانكوك كورى,Tire,Hankook,Hankook,South Korea,245.0,45.0,18.0,245/45 R18,Passenger,,,False,False,,,,,,,False,,,,245/45 R18 Hankook - South Korea,East Asia,False,R18
+278,18-50-225 اوريو تايلاندي,Tire,Orio,Orio,Thailand,225.0,50.0,18.0,225/50 R18,Passenger,,,False,False,,,,,,,False,,,,225/50 R18 Orio - Thailand,Southeast Asia,False,R18
+279,18-50-235 امريكان رودستار تايلاندي,Tire,American Roadstar,American Roadstar,Thailand,235.0,50.0,18.0,235/50 R18,Passenger,,,False,False,,,,,,,False,,,,235/50 R18 American Roadstar - Thailand,Southeast Asia,False,R18
+280,18-50-235زيتكس تايلاندي,Tire,Zeetex,Zeetex,Thailand,235.0,50.0,18.0,235/50 R18,Passenger,,,False,False,,,,,,,False,,,,235/50 R18 Zeetex - Thailand,Southeast Asia,False,R18
+281,18-5-114-112 SSW تايلاندي 8.5 انش ET38,Rim,SSW,SSW,Thailand,,,18.0,,,,,False,False,,5.0,5x114.3/112,8.5,38,Standard,False,,,,"18"" SSW Standard (5x114.3/112)",Southeast Asia,False,R18
+282,18-55-225 بريدجستون بولندى,Tire,Bridgestone,Bridgestone,Poland,225.0,55.0,18.0,225/55 R18,Passenger,,,False,False,,,,,,,False,,,,225/55 R18 Bridgestone - Poland,Europe,False,R18
+283,18-55-235 برينكس تايلاندى,Tire,Prinx,Prinx,Thailand,235.0,55.0,18.0,235/55 R18,Passenger,,,False,False,,,,,,,False,,,,235/55 R18 Prinx - Thailand,Southeast Asia,False,R18
+284,18-55-235 جودتريب تايلاندي,Tire,Goodtrip,Goodtrip,Thailand,235.0,55.0,18.0,235/55 R18,Passenger,,,False,False,,,,,,,False,,,,235/55 R18 Goodtrip - Thailand,Southeast Asia,False,R18
+285,18-55-235 هانكوك كوري,Tire,Hankook,Hankook,South Korea,235.0,55.0,18.0,235/55 R18,Passenger,,,False,False,,,,,,,False,,,,235/55 R18 Hankook - South Korea,East Asia,False,R18
+286,18-60-265 ماتريكس تايلاندي 110V,Tire,Matrix,Matrix,Thailand,265.0,60.0,18.0,265/60 R18,Passenger,110.0,V,False,False,,,,,,,False,,,,265/60 R18 Matrix - Thailand,Southeast Asia,False,R18
+287,19-35-235 ماتريكس تايلاندي,Tire,Matrix,Matrix,Thailand,235.0,35.0,19.0,235/35 R19,Passenger,,,False,False,,,,,,,False,,,,235/35 R19 Matrix - Thailand,Southeast Asia,False,R19
+288,19-40-235 اوريو تايلاندي,Tire,Orio,Orio,Thailand,235.0,40.0,19.0,235/40 R19,Passenger,,,False,False,,,,,,,False,,,,235/40 R19 Orio - Thailand,Southeast Asia,False,R19
+289,19-40-235 فورس لاند صيني,Tire,Forceland,Forceland,China,235.0,40.0,19.0,235/40 R19,Passenger,,,False,False,,,,,,,False,,,,235/40 R19 Forceland - China,East Asia,False,R19
+290,19-40-235 نكسن كوري,Tire,Nexen,Nexen,South Korea,235.0,40.0,19.0,235/40 R19,Passenger,,,False,False,,,,,,,False,,,,235/40 R19 Nexen - South Korea,East Asia,False,R19
+291,19-40-245 اطلس تايلاندي 98Y XL,Tire,Atlas,Atlas,Thailand,245.0,40.0,19.0,245/40 R19,Passenger,98.0,Y,True,False,,,,,,,False,,,,245/40 R19 Atlas - Thailand,Southeast Asia,False,R19
+292,19-45-225 لاندسبيدر تايلاندي,Tire,Landspider,Landspider,Thailand,225.0,45.0,19.0,225/45 R19,Passenger,,,False,False,,,,,,,False,,,,225/45 R19 Landspider - Thailand,Southeast Asia,False,R19
+293,19-45-235 اوريو تايلاندي,Tire,Orio,Orio,Thailand,235.0,45.0,19.0,235/45 R19,Passenger,,,False,False,,,,,,,False,,,,235/45 R19 Orio - Thailand,Southeast Asia,False,R19
+294,19-45-245 امريكان رودستار تايلاندي 102W XL,Tire,American Roadstar,American Roadstar,Thailand,245.0,45.0,19.0,245/45 R19,Passenger,102.0,W,True,False,,,,,,,False,,,,245/45 R19 American Roadstar - Thailand,Southeast Asia,False,R19
+295,19-45-245زيتكس تايلاندي,Tire,Zeetex,Zeetex,Thailand,245.0,45.0,19.0,245/45 R19,Passenger,,,False,False,,,,,,,False,,,,245/45 R19 Zeetex - Thailand,Southeast Asia,False,R19
+296,19-50-235 لوفين كوري 99V,Tire,Laufenn,Laufenn,South Korea,235.0,50.0,19.0,235/50 R19,Passenger,99.0,V,False,False,,,,,,,False,,,,235/50 R19 Laufenn - South Korea,East Asia,False,R19
+297,19-50-235 نكسن كوري,Tire,Nexen,Nexen,South Korea,235.0,50.0,19.0,235/50 R19,Passenger,,,False,False,,,,,,,False,,,,235/50 R19 Nexen - South Korea,East Asia,False,R19
+298,19-50-235 هانكوك كورى,Tire,Hankook,Hankook,South Korea,235.0,50.0,19.0,235/50 R19,Passenger,,,False,False,,,,,,,False,,,,235/50 R19 Hankook - South Korea,East Asia,False,R19
+299,20-45-245 ماتريكس تايلاندي 101WXL,Tire,Matrix,Matrix,Thailand,245.0,45.0,20.0,245/45 R20,Passenger,101.0,W,True,False,,,,,,,False,,,,245/45 R20 Matrix - Thailand,Southeast Asia,False,R20
+300,GM جي ام td-70 مصري,Battery,GM,GM,Egypt,,,,,,,,False,False,,,,,,,False,TD-70,TD,,GM TD-70 - Egypt,Middle East & Africa,False,
+301,ادلر n-90مصري,Battery,Adler,Adler,Egypt,,,,,,,,False,False,,,,,,,False,N-90,N,,Adler N-90 - Egypt,Middle East & Africa,False,
+302,ادلرn-80مصري,Battery,Adler,Adler,Egypt,,,,,,,,False,False,,,,,,,False,N-80,N,,Adler N-80 - Egypt,Middle East & Africa,False,
+303,اسيديلكو din-74 سعودي,Battery,ACDelco,ACDelco,Saudi Arabia,,,,,,,,False,False,,,,,,,False,DIN-74,DIN,,ACDelco DIN-74 - Saudi Arabia,Middle East & Africa,False,
+304,اسيديلكو td-70 سعودى,Battery,ACDelco,ACDelco,Saudi Arabia,,,,,,,,False,False,,,,,,,False,TD-70,TD,,ACDelco TD-70 - Saudi Arabia,Middle East & Africa,False,
+305,اكترون td-70 مصري,Battery,Actron,Actron,Egypt,,,,,,,,False,False,,,,,,,False,TD-70,TD,,Actron TD-70 - Egypt,Middle East & Africa,False,
+306,انجى اكوا din-100 تركي,Battery,Inci Aku,Inci Aku Aqua,Turkey,,,,,,,,False,False,,,,,,,False,DIN-100,DIN,,Inci Aku Aqua DIN-100 - Turkey,Middle East & Africa,False,
+307,انجى اكوا din-74 تركي,Battery,Inci Aku,Inci Aku Aqua,Turkey,,,,,,,,False,False,,,,,,,False,DIN-74,DIN,,Inci Aku Aqua DIN-74 - Turkey,Middle East & Africa,False,
+308,انجى اكوا n60تركي,Battery,Inci Aku,Inci Aku Aqua,Turkey,,,,,,,,False,False,,,,,,,False,N-60,N,,Inci Aku Aqua N-60 - Turkey,Middle East & Africa,False,
+309,انجى اكوا n-90 تركى,Battery,Inci Aku,Inci Aku Aqua,Turkey,,,,,,,,False,False,,,,,,,False,N-90,N,,Inci Aku Aqua N-90 - Turkey,Middle East & Africa,False,
+310,انجى اكوا ns-35 تركى,Battery,Inci Aku,Inci Aku Aqua,Turkey,,,,,,,,False,False,,,,,,,False,NS-35,NS,,Inci Aku Aqua NS-35 - Turkey,Middle East & Africa,False,
+311,انجى اكوا td-70 تركى,Battery,Inci Aku,Inci Aku Aqua,Turkey,,,,,,,,False,False,,,,,,,False,TD-70,TD,,Inci Aku Aqua TD-70 - Turkey,Middle East & Africa,False,
+312,انجي اكوا ns-60 تركي,Battery,Inci Aku,Inci Aku Aqua,Turkey,,,,,,,,False,False,,,,,,,False,NS-60,NS,,Inci Aku Aqua NS-60 - Turkey,Middle East & Africa,False,
+313,انرجايزر DIN-70L اسباني,Battery,Energizer,Energizer,Spain,,,,,,,,False,False,,,,,,,False,DIN-70L,DIN,,Energizer DIN-70L - Spain,Europe,False,
+314,ايه سي باور td-70R مصري,Battery,AC Power,AC Power,Egypt,,,,,,,,False,False,,,,,,,False,TD-70R,TD,,AC Power TD-70R - Egypt,Middle East & Africa,False,
+315,بانثر din-74L مصري,Battery,Panther,Panther,Egypt,,,,,,,,False,False,,,,,,,False,DIN-74L,DIN,,Panther DIN-74L - Egypt,Middle East & Africa,False,
+316,بلاتين n80تركي,Battery,Platin,Platin,Turkey,,,,,,,,False,False,,,,,,,False,N-80,N,,Platin N-80 - Turkey,Middle East & Africa,False,
+317,بلاتين ns-60 تركي,Battery,Platin,Platin,Turkey,,,,,,,,False,False,,,,,,,False,NS-60,NS,,Platin NS-60 - Turkey,Middle East & Africa,False,
+318,بلاتين td-70تركي,Battery,Platin,Platin,Turkey,,,,,,,,False,False,,,,,,,False,TD-70,TD,,Platin TD-70 - Turkey,Middle East & Africa,False,
+319,بوش din-74 المانى,Battery,Bosch,Bosch,Germany,,,,,,,,False,False,,,,,,,False,DIN-74,DIN,,Bosch DIN-74 - Germany,Europe,False,
+320,بوش ns-60 اسباني,Battery,Bosch,Bosch,Spain,,,,,,,,False,False,,,,,,,False,NS-60,NS,,Bosch NS-60 - Spain,Europe,False,
+321,بولو din-74تركي,Battery,Polo,Polo,Turkey,,,,,,,,False,False,,,,,,,False,DIN-74,DIN,,Polo DIN-74 - Turkey,Middle East & Africa,False,
+322,خدمة استعدال و لحام جنط,Service,Shop Service,Shop Service,Not applicable,,,,,,,,False,False,,,,,,,False,,,,Rim Straightening & Welding,Not applicable,False,
+323,خدمة لحام,Service,Shop Service,Shop Service,Not applicable,,,,,,,,False,False,,,,,,,False,,,,Welding,Not applicable,False,
+324,طقم رينج بلاستيك 73.1 - 57.1,Accessory,Unbranded,Unbranded,Not applicable,,,,,,,,False,False,,,,,,,False,,,,Plastic Hub Ring Set 73.1-57.1,Not applicable,False,
+325,فارتا din 74 المانى,Battery,Varta,Varta,Germany,,,,,,,,False,False,,,,,,,False,DIN-74,DIN,,Varta DIN-74 - Germany,Europe,False,
+326,فارتا din-70L الماني,Battery,Varta,Varta,Germany,,,,,,,,False,False,,,,,,,False,DIN-70L,DIN,,Varta DIN-70L - Germany,Europe,False,
+327,فارتا DIN-80L الماني,Battery,Varta,Varta,Germany,,,,,,,,False,False,,,,,,,False,DIN-80L,DIN,,Varta DIN-80L - Germany,Europe,False,
+328,فارتا ns-60 الماني,Battery,Varta,Varta,Germany,,,,,,,,False,False,,,,,,,False,NS-60,NS,,Varta NS-60 - Germany,Europe,False,
+329,فارتا td-70 المانى,Battery,Varta,Varta,Germany,,,,,,,,False,False,,,,,,,False,TD-70,TD,,Varta TD-70 - Germany,Europe,False,
+330,فلو ستارك td-70 مصرى,Battery,Flow Stark,Flow Stark,Egypt,,,,,,,,False,False,,,,,,,False,TD-70,TD,,Flow Stark TD-70 - Egypt,Middle East & Africa,False,
+331,فولترونيك NS-60L تركي,Battery,Voltronic,Voltronic,Turkey,,,,,,,,False,False,,,,,,,False,NS-60L,NS,,Voltronic NS-60L - Turkey,Middle East & Africa,False,
+332,كلورايد جولد td-70 مصري,Battery,Chloride,Chloride Gold,Egypt,,,,,,,,False,False,,,,,,,False,TD-70,TD,,Chloride Gold TD-70 - Egypt,Middle East & Africa,False,
+333,كلورايد عادة din - 74 مصرى,Battery,Chloride,Chloride Standard,Egypt,,,,,,,,False,False,,,,,,,False,DIN-74,DIN,,Chloride Standard DIN-74 - Egypt,Middle East & Africa,False,
+334,كلورايد عادة n-80 مصرى,Battery,Chloride,Chloride Standard,Egypt,,,,,,,,False,False,,,,,,,False,N-80,N,,Chloride Standard N-80 - Egypt,Middle East & Africa,False,
+335,كلورايد عادة n-90 مصرى,Battery,Chloride,Chloride Standard,Egypt,,,,,,,,False,False,,,,,,,False,N-90,N,,Chloride Standard N-90 - Egypt,Middle East & Africa,False,
+336,كلورايد عادة ns-40 مصري,Battery,Chloride,Chloride Standard,Egypt,,,,,,,,False,False,,,,,,,False,NS-40,NS,,Chloride Standard NS-40 - Egypt,Middle East & Africa,False,
+337,كلورايد عادة ns-60 مصرى,Battery,Chloride,Chloride Standard,Egypt,,,,,,,,False,False,,,,,,,False,NS-60,NS,,Chloride Standard NS-60 - Egypt,Middle East & Africa,False,
+338,كلورايد عادة ns-70 مصري,Battery,Chloride,Chloride Standard,Egypt,,,,,,,,False,False,,,,,,,False,NS-70,NS,,Chloride Standard NS-70 - Egypt,Middle East & Africa,False,
+339,كلورايد عادة td-70 مصري,Battery,Chloride,Chloride Standard,Egypt,,,,,,,,False,False,,,,,,,False,TD-70,TD,,Chloride Standard TD-70 - Egypt,Middle East & Africa,False,
+340,موتلو din-44 تركي,Battery,Mutlu,Mutlu,Turkey,,,,,,,,False,False,,,,,,,False,DIN-44,DIN,,Mutlu DIN-44 - Turkey,Middle East & Africa,False,
+341,نسر td-70مصري,Battery,Nesr,Nesr,Egypt,,,,,,,,False,False,,,,,,,False,TD-70,TD,,Nesr TD-70 - Egypt,Middle East & Africa,False,
+342,نسرns-40مصري,Battery,Nesr,Nesr,Egypt,,,,,,,,False,False,,,,,,,False,NS-40,NS,,Nesr NS-40 - Egypt,Middle East & Africa,False,
+343,هوجل DIN-44,Battery,Hugel,Hugel,Unknown,,,,,,,,False,False,,,,,,,False,DIN-44,DIN,,Hugel DIN-44 - Unknown,Unknown,False,

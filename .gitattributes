@@ -1,0 +1,4 @@
+*.csv -text
+*.bat eol=crlf
+*.pbix binary
+*.xlsx binary
