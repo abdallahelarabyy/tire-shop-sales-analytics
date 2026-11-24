@@ -16,11 +16,11 @@ exploratory analysis, a 6-page Power BI dashboard and business recommendations.
 - **Services are the profit engine:** welding and rim straightening are 13.5% of revenue but
   **56% of profit** (1,706 jobs) - and they bring most of the walk-in traffic.
 - **Goods earn thin margins:** tires 11.7%, batteries 13.3%, rims 13.0%.
-- **Bigger tires earn the least:** R17 and larger earn 8.7%; re-pricing them to 11 % would add
+- **Bigger tires earn the least:** R17 and larger earn 8.7%; re-pricing them to 11% would add
   ~2.3% of their revenue in profit.
 - **Korean tires sell well at a low margin** (8.8%, Hankook 5.8%),
-  while Chinese, Vietnamese and European tires earn ~14-15 %.
-- **21 tires were sold below their last purchase price** - 5 of them by more than 15 %.
+  while Chinese, Vietnamese and European tires earn ~14-15%.
+- **21 tires were sold below their last purchase price** - 5 of them by more than 15%.
 - **Egyptian batteries earn about twice the margin** of Varta / ACDelco; one size (TD-70) is 75% of battery sales.
 - **An evening business:** 58% of invoices come after 18:00, peaking at 21:00;
   Saturday and Monday are the best days.
@@ -37,6 +37,8 @@ Open **`dashboard/Tire Shop Sales Dashboard.pbix`** in Power BI Desktop - the da
 | ![Tires](docs/screenshots/2-tires.png) | ![Batteries & Services](docs/screenshots/3-batteries-services.png) |
 | **Pricing Alerts** | **Sales Activity** |
 | ![Pricing Alerts](docs/screenshots/4-pricing-alerts.png) | ![Sales Activity](docs/screenshots/5-sales-activity.png) |
+| **Data Notes** | |
+| ![Data Notes](docs/screenshots/6-data-notes.png) | |
 
 - **Model:** star schema (Products, Product Sales, Invoices, Calendar), 2 relationships, 30 DAX measures,
   sort-by columns, marked date table, a weekday x hour heat map driven by a DAX colour measure.
